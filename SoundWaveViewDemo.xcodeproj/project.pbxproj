@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168E3E8E00599400C090EB68 /* Pods_SoundWaveViewDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37943894D252EE16E238C6D /* Pods_SoundWaveViewDemoTests.framework */; };
+		35994F9121F808B700EF7112 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35994F9021F808B700EF7112 /* AppDelegate.m */; };
+		35994F9921F808B800EF7112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35994F9821F808B800EF7112 /* Assets.xcassets */; };
+		35994F9C21F808B800EF7112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35994F9A21F808B800EF7112 /* LaunchScreen.storyboard */; };
+		35994F9F21F808B800EF7112 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35994F9E21F808B800EF7112 /* main.m */; };
+		35994FA921F808B800EF7112 /* SoundWaveViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35994FA821F808B800EF7112 /* SoundWaveViewDemoTests.m */; };
+		35994FB421F808B800EF7112 /* SoundWaveViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35994FB321F808B800EF7112 /* SoundWaveViewDemoUITests.m */; };
+		35994FC321F808E600EF7112 /* SoundWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35994FC221F808E600EF7112 /* SoundWaveViewController.m */; };
+		35EF0BDB21F80F82009EF826 /* SoundWaveDataCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EF0BD821F80F82009EF826 /* SoundWaveDataCollector.m */; };
+		35EF0BDC21F80F82009EF826 /* SoundWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EF0BD921F80F82009EF826 /* SoundWaveView.m */; };
+		35EF0BDF21F8107D009EF826 /* UIColor+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EF0BDD21F8107D009EF826 /* UIColor+Ex.m */; };
+		87B440159E6D3936F5AE76BD /* Pods_SoundWaveViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E652753A522588229CC69F3 /* Pods_SoundWaveViewDemo.framework */; };
+		A780767E8671395124728F95 /* Pods_SoundWaveViewDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0EDF13D7FA200B8D42FDF8 /* Pods_SoundWaveViewDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35994FA521F808B800EF7112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35994F8421F808B700EF7112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35994F8B21F808B700EF7112;
+			remoteInfo = SoundWaveViewDemo;
+		};
+		35994FB021F808B800EF7112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35994F8421F808B700EF7112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35994F8B21F808B700EF7112;
+			remoteInfo = SoundWaveViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11862DBE2CA2C395C56B168C /* Pods-SoundWaveViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundWaveViewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundWaveViewDemoTests/Pods-SoundWaveViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		18802AAE47BFAAAC50996EA1 /* Pods-SoundWaveViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundWaveViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundWaveViewDemo/Pods-SoundWaveViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		268A57498BEDFCCFFACEA705 /* Pods-SoundWaveViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundWaveViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundWaveViewDemo/Pods-SoundWaveViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		28A3D52FF4AFCB63685053B8 /* Pods-SoundWaveViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundWaveViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundWaveViewDemoTests/Pods-SoundWaveViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35994F8C21F808B700EF7112 /* SoundWaveViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundWaveViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35994F8F21F808B700EF7112 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35994F9021F808B700EF7112 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35994F9821F808B800EF7112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35994F9B21F808B800EF7112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35994F9D21F808B800EF7112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35994F9E21F808B800EF7112 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35994FA421F808B800EF7112 /* SoundWaveViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundWaveViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35994FA821F808B800EF7112 /* SoundWaveViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundWaveViewDemoTests.m; sourceTree = "<group>"; };
+		35994FAA21F808B800EF7112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35994FAF21F808B800EF7112 /* SoundWaveViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundWaveViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35994FB321F808B800EF7112 /* SoundWaveViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundWaveViewDemoUITests.m; sourceTree = "<group>"; };
+		35994FB521F808B800EF7112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35994FC121F808E600EF7112 /* SoundWaveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundWaveViewController.h; sourceTree = "<group>"; };
+		35994FC221F808E600EF7112 /* SoundWaveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundWaveViewController.m; sourceTree = "<group>"; };
+		35EF0BD721F80F82009EF826 /* SoundWaveDataCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundWaveDataCollector.h; sourceTree = "<group>"; };
+		35EF0BD821F80F82009EF826 /* SoundWaveDataCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundWaveDataCollector.m; sourceTree = "<group>"; };
+		35EF0BD921F80F82009EF826 /* SoundWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundWaveView.m; sourceTree = "<group>"; };
+		35EF0BDA21F80F82009EF826 /* SoundWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundWaveView.h; sourceTree = "<group>"; };
+		35EF0BDD21F8107D009EF826 /* UIColor+Ex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ex.m"; sourceTree = "<group>"; };
+		35EF0BDE21F8107D009EF826 /* UIColor+Ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Ex.h"; sourceTree = "<group>"; };
+		5CAABC4E5E9BAFC9E89A69EB /* Pods-SoundWaveViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundWaveViewDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundWaveViewDemoUITests/Pods-SoundWaveViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A0EDF13D7FA200B8D42FDF8 /* Pods_SoundWaveViewDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundWaveViewDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E652753A522588229CC69F3 /* Pods_SoundWaveViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundWaveViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCED3A174689919B3FB2542A /* Pods-SoundWaveViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundWaveViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundWaveViewDemoUITests/Pods-SoundWaveViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F37943894D252EE16E238C6D /* Pods_SoundWaveViewDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundWaveViewDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35994F8921F808B700EF7112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B440159E6D3936F5AE76BD /* Pods_SoundWaveViewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35994FA121F808B800EF7112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168E3E8E00599400C090EB68 /* Pods_SoundWaveViewDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35994FAC21F808B800EF7112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A780767E8671395124728F95 /* Pods_SoundWaveViewDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35994F8321F808B700EF7112 = {
+			isa = PBXGroup;
+			children = (
+				35994F8E21F808B700EF7112 /* SoundWaveViewDemo */,
+				35994FA721F808B800EF7112 /* SoundWaveViewDemoTests */,
+				35994FB221F808B800EF7112 /* SoundWaveViewDemoUITests */,
+				35994F8D21F808B700EF7112 /* Products */,
+				E10308A14C8D1F22DD610B11 /* Pods */,
+				531D9BC42A797DB7F46B7C37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		35994F8D21F808B700EF7112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35994F8C21F808B700EF7112 /* SoundWaveViewDemo.app */,
+				35994FA421F808B800EF7112 /* SoundWaveViewDemoTests.xctest */,
+				35994FAF21F808B800EF7112 /* SoundWaveViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35994F8E21F808B700EF7112 /* SoundWaveViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				35994F8F21F808B700EF7112 /* AppDelegate.h */,
+				35994F9021F808B700EF7112 /* AppDelegate.m */,
+				35994FC121F808E600EF7112 /* SoundWaveViewController.h */,
+				35994FC221F808E600EF7112 /* SoundWaveViewController.m */,
+				35EF0BD721F80F82009EF826 /* SoundWaveDataCollector.h */,
+				35EF0BD821F80F82009EF826 /* SoundWaveDataCollector.m */,
+				35EF0BDA21F80F82009EF826 /* SoundWaveView.h */,
+				35EF0BD921F80F82009EF826 /* SoundWaveView.m */,
+				35EF0BDE21F8107D009EF826 /* UIColor+Ex.h */,
+				35EF0BDD21F8107D009EF826 /* UIColor+Ex.m */,
+				35994F9821F808B800EF7112 /* Assets.xcassets */,
+				35994F9A21F808B800EF7112 /* LaunchScreen.storyboard */,
+				35994F9D21F808B800EF7112 /* Info.plist */,
+				35994F9E21F808B800EF7112 /* main.m */,
+			);
+			path = SoundWaveViewDemo;
+			sourceTree = "<group>";
+		};
+		35994FA721F808B800EF7112 /* SoundWaveViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				35994FA821F808B800EF7112 /* SoundWaveViewDemoTests.m */,
+				35994FAA21F808B800EF7112 /* Info.plist */,
+			);
+			path = SoundWaveViewDemoTests;
+			sourceTree = "<group>";
+		};
+		35994FB221F808B800EF7112 /* SoundWaveViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35994FB321F808B800EF7112 /* SoundWaveViewDemoUITests.m */,
+				35994FB521F808B800EF7112 /* Info.plist */,
+			);
+			path = SoundWaveViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		531D9BC42A797DB7F46B7C37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E652753A522588229CC69F3 /* Pods_SoundWaveViewDemo.framework */,
+				F37943894D252EE16E238C6D /* Pods_SoundWaveViewDemoTests.framework */,
+				6A0EDF13D7FA200B8D42FDF8 /* Pods_SoundWaveViewDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E10308A14C8D1F22DD610B11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				268A57498BEDFCCFFACEA705 /* Pods-SoundWaveViewDemo.debug.xcconfig */,
+				18802AAE47BFAAAC50996EA1 /* Pods-SoundWaveViewDemo.release.xcconfig */,
+				28A3D52FF4AFCB63685053B8 /* Pods-SoundWaveViewDemoTests.debug.xcconfig */,
+				11862DBE2CA2C395C56B168C /* Pods-SoundWaveViewDemoTests.release.xcconfig */,
+				CCED3A174689919B3FB2542A /* Pods-SoundWaveViewDemoUITests.debug.xcconfig */,
+				5CAABC4E5E9BAFC9E89A69EB /* Pods-SoundWaveViewDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35994F8B21F808B700EF7112 /* SoundWaveViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35994FB821F808B800EF7112 /* Build configuration list for PBXNativeTarget "SoundWaveViewDemo" */;
+			buildPhases = (
+				29F0E6A112A95A42B9B7986C /* [CP] Check Pods Manifest.lock */,
+				35994F8821F808B700EF7112 /* Sources */,
+				35994F8921F808B700EF7112 /* Frameworks */,
+				35994F8A21F808B700EF7112 /* Resources */,
+				082D2853CECFCDB2BE71FF34 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundWaveViewDemo;
+			productName = SoundWaveViewDemo;
+			productReference = 35994F8C21F808B700EF7112 /* SoundWaveViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35994FA321F808B800EF7112 /* SoundWaveViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35994FBB21F808B800EF7112 /* Build configuration list for PBXNativeTarget "SoundWaveViewDemoTests" */;
+			buildPhases = (
+				45E48062E7F1CE816AC93A89 /* [CP] Check Pods Manifest.lock */,
+				35994FA021F808B800EF7112 /* Sources */,
+				35994FA121F808B800EF7112 /* Frameworks */,
+				35994FA221F808B800EF7112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35994FA621F808B800EF7112 /* PBXTargetDependency */,
+			);
+			name = SoundWaveViewDemoTests;
+			productName = SoundWaveViewDemoTests;
+			productReference = 35994FA421F808B800EF7112 /* SoundWaveViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35994FAE21F808B800EF7112 /* SoundWaveViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35994FBE21F808B800EF7112 /* Build configuration list for PBXNativeTarget "SoundWaveViewDemoUITests" */;
+			buildPhases = (
+				F55777161A62F3D688DDAD8B /* [CP] Check Pods Manifest.lock */,
+				35994FAB21F808B800EF7112 /* Sources */,
+				35994FAC21F808B800EF7112 /* Frameworks */,
+				35994FAD21F808B800EF7112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35994FB121F808B800EF7112 /* PBXTargetDependency */,
+			);
+			name = SoundWaveViewDemoUITests;
+			productName = SoundWaveViewDemoUITests;
+			productReference = 35994FAF21F808B800EF7112 /* SoundWaveViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35994F8421F808B700EF7112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LeonDeng;
+				TargetAttributes = {
+					35994F8B21F808B700EF7112 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					35994FA321F808B800EF7112 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 35994F8B21F808B700EF7112;
+					};
+					35994FAE21F808B800EF7112 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 35994F8B21F808B700EF7112;
+					};
+				};
+			};
+			buildConfigurationList = 35994F8721F808B700EF7112 /* Build configuration list for PBXProject "SoundWaveViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35994F8321F808B700EF7112;
+			productRefGroup = 35994F8D21F808B700EF7112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35994F8B21F808B700EF7112 /* SoundWaveViewDemo */,
+				35994FA321F808B800EF7112 /* SoundWaveViewDemoTests */,
+				35994FAE21F808B800EF7112 /* SoundWaveViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35994F8A21F808B700EF7112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35994F9C21F808B800EF7112 /* LaunchScreen.storyboard in Resources */,
+				35994F9921F808B800EF7112 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35994FA221F808B800EF7112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35994FAD21F808B800EF7112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		082D2853CECFCDB2BE71FF34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SoundWaveViewDemo/Pods-SoundWaveViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/PSTAlertController/PSTAlertController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PSTAlertController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoundWaveViewDemo/Pods-SoundWaveViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29F0E6A112A95A42B9B7986C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoundWaveViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45E48062E7F1CE816AC93A89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoundWaveViewDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55777161A62F3D688DDAD8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoundWaveViewDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35994F8821F808B700EF7112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EF0BDF21F8107D009EF826 /* UIColor+Ex.m in Sources */,
+				35EF0BDB21F80F82009EF826 /* SoundWaveDataCollector.m in Sources */,
+				35994F9F21F808B800EF7112 /* main.m in Sources */,
+				35EF0BDC21F80F82009EF826 /* SoundWaveView.m in Sources */,
+				35994F9121F808B700EF7112 /* AppDelegate.m in Sources */,
+				35994FC321F808E600EF7112 /* SoundWaveViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35994FA021F808B800EF7112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35994FA921F808B800EF7112 /* SoundWaveViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35994FAB21F808B800EF7112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35994FB421F808B800EF7112 /* SoundWaveViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35994FA621F808B800EF7112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35994F8B21F808B700EF7112 /* SoundWaveViewDemo */;
+			targetProxy = 35994FA521F808B800EF7112 /* PBXContainerItemProxy */;
+		};
+		35994FB121F808B800EF7112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35994F8B21F808B700EF7112 /* SoundWaveViewDemo */;
+			targetProxy = 35994FB021F808B800EF7112 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35994F9A21F808B800EF7112 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35994F9B21F808B800EF7112 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35994FB621F808B800EF7112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35994FB721F808B800EF7112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35994FB921F808B800EF7112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268A57498BEDFCCFFACEA705 /* Pods-SoundWaveViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSH7W5Y66V;
+				INFOPLIST_FILE = SoundWaveViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GitHubDemo.SoundWaveViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35994FBA21F808B800EF7112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18802AAE47BFAAAC50996EA1 /* Pods-SoundWaveViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSH7W5Y66V;
+				INFOPLIST_FILE = SoundWaveViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GitHubDemo.SoundWaveViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35994FBC21F808B800EF7112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A3D52FF4AFCB63685053B8 /* Pods-SoundWaveViewDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSH7W5Y66V;
+				INFOPLIST_FILE = SoundWaveViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GitHubDemo.SoundWaveViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundWaveViewDemo.app/SoundWaveViewDemo";
+			};
+			name = Debug;
+		};
+		35994FBD21F808B800EF7112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11862DBE2CA2C395C56B168C /* Pods-SoundWaveViewDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSH7W5Y66V;
+				INFOPLIST_FILE = SoundWaveViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GitHubDemo.SoundWaveViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundWaveViewDemo.app/SoundWaveViewDemo";
+			};
+			name = Release;
+		};
+		35994FBF21F808B800EF7112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCED3A174689919B3FB2542A /* Pods-SoundWaveViewDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSH7W5Y66V;
+				INFOPLIST_FILE = SoundWaveViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GitHubDemo.SoundWaveViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoundWaveViewDemo;
+			};
+			name = Debug;
+		};
+		35994FC021F808B800EF7112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CAABC4E5E9BAFC9E89A69EB /* Pods-SoundWaveViewDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VSH7W5Y66V;
+				INFOPLIST_FILE = SoundWaveViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GitHubDemo.SoundWaveViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoundWaveViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35994F8721F808B700EF7112 /* Build configuration list for PBXProject "SoundWaveViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35994FB621F808B800EF7112 /* Debug */,
+				35994FB721F808B800EF7112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35994FB821F808B800EF7112 /* Build configuration list for PBXNativeTarget "SoundWaveViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35994FB921F808B800EF7112 /* Debug */,
+				35994FBA21F808B800EF7112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35994FBB21F808B800EF7112 /* Build configuration list for PBXNativeTarget "SoundWaveViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35994FBC21F808B800EF7112 /* Debug */,
+				35994FBD21F808B800EF7112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35994FBE21F808B800EF7112 /* Build configuration list for PBXNativeTarget "SoundWaveViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35994FBF21F808B800EF7112 /* Debug */,
+				35994FC021F808B800EF7112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35994F8421F808B700EF7112 /* Project object */;
+}

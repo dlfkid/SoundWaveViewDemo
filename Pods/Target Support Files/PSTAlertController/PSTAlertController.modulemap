@@ -1,0 +1,6 @@
+framework module PSTAlertController {
+  umbrella header "PSTAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SoundWaveViewDemo {
+  umbrella header "Pods-SoundWaveViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

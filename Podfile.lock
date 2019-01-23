@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - PSTAlertController (1.2.0)
+
+DEPENDENCIES:
+  - Masonry
+  - PSTAlertController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - PSTAlertController
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PSTAlertController: 9b802dfbda54fee2683bfd6dda7023a6de895d5b
+
+PODFILE CHECKSUM: 3cfc0d67aa550ba857ec57211b4c76c1e319b5a1
+
+COCOAPODS: 1.5.3
