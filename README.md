@@ -4,7 +4,7 @@ Engilish Description:
 
 	This is a demo that show you an example for creating an dynamic soundwave view with your devcie's recorded vocie as data source.
 
-	I used masonry to implement the view, in your case, you can suit your self.
+	I used masonry to implement the view, in your case, you can suit yourself.
 
 
 中文介绍：
