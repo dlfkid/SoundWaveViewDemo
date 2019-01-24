@@ -1,5 +1,7 @@
 SoundWaveViewDemo
 
+![Alt text](/sampleImage/soundWave.jpg?raw=true "Optional Title")
+
 Engilish Description:
 
 	This is a demo that show you an example for creating an dynamic soundwave view with your devcie's recorded vocie as data source.
