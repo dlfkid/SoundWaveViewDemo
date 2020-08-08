@@ -35,8 +35,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) UIView <SoundWaveDataCollectorDelegate> *delegate;
 @property (nonatomic, strong) id <SoundWaveDataCollectorDataSource> dataSource;
 
+/// 开始采集音量数据
+/// @param frequency 频率
 - (void)collectWithFrequency:(NSTimeInterval)frequency;
 
+/// 停止采集
 - (void)stopCollecting;
 
 @end
