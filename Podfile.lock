@@ -7,7 +7,7 @@ DEPENDENCIES:
   - PSTAlertController
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Masonry
     - PSTAlertController
 
@@ -17,4 +17,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 3cfc0d67aa550ba857ec57211b4c76c1e319b5a1
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.3

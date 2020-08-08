@@ -13,18 +13,31 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol SoundWaveDataCollectorDelegate <NSObject>
 
 @optional
-- (void)updateGuageValue:(CGFloat)value;
+- (void)updateGuageValue:(Float64)value;
+
+@end
+
+@protocol SoundWaveDataCollectorDataSource
+
+@required
+@property (nonatomic, assign, readonly, getter =  isRecording) BOOL recording;
+
+@property (nonatomic, assign, readonly) Float64 volume;
+
+- (void)startRecording;
+
+- (void)stopRecording;
 
 @end
 
 @interface SoundWaveDataCollector : NSObject
 
 @property (nonatomic, weak) UIView <SoundWaveDataCollectorDelegate> *delegate;
+@property (nonatomic, strong) id <SoundWaveDataCollectorDataSource> dataSource;
 
-- (void)startRecording;
+- (void)collectWithFrequency:(NSTimeInterval)frequency;
 
-// 终止录音
-- (void)stopRecording;
+- (void)stopCollecting;
 
 @end
 

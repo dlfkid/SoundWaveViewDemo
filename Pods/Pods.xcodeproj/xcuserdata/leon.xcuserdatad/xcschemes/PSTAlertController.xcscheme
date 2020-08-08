@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D3A6E63A24AE4F11F525BBF4AF99C625"
+               BlueprintIdentifier = "5C2027A4F61A8FBE3744D8F38F93912C"
+               BuildableName = "PSTAlertController.framework"
                BlueprintName = "PSTAlertController"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "PSTAlertController.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

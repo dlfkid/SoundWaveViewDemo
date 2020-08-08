@@ -3,545 +3,463 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02ED9501EF030F817393BBB94A494C8C /* Pods-SoundWaveViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A8ADD01438425E5C8E950DCE933803 /* Pods-SoundWaveViewDemo-dummy.m */; };
-		03E6C18745D7D3CFAD4F513DE97B954B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9093CC3EDDC471F3CE1D431D5B6207E8 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CB26840B2CD2CDB40F8A29A935233E3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C0B57E847CD27824AF32C30C18C907 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1046B7E99E763A9478CEDEB621A21C5F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE60FF41907F16D4756BC2D69CF499E2 /* View+MASAdditions.m */; };
-		24AA095821D4A1EE5818A0374DFCD08B /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 171C730B20D66937FAAE833F365F2DE1 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		264B3C25A65D99E48DC8C6803788509A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		3F7D64E2274A929B8B77E6C170937097 /* Pods-SoundWaveViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37114B7C71A1B99EE7F39AF8F18403B1 /* Pods-SoundWaveViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49CD91D6F77E8E088F0A5C59EE86B53C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E35FEB88FF5A80F5648A6958E1715E /* ViewController+MASAdditions.m */; };
-		4A3DD37ABD9A5758C3BE31E8B1CF7B29 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 333D53B872C1235221EC3DFEBA85E387 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B68EAAD60BD0B67B42711BF6DACDC9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		4DDA8E2C394C4974D38C2022E482271F /* PSTAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = F69D47BC876454DFFEFE5EE4D2656B00 /* PSTAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50FADD0D1A73B1AD065B54A6355CAA06 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B737885BA4079F075A83C78DA0E3DEE /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59F1F34EC8668D299B1A1BEA3AD51A98 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 84ACF1EC128D367890185E213775900E /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F1C5E38643181D43B016BC08112F198 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		61D6D891F5267AB65CD97EC2C0D4BA9C /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B50FE36A0C17F3DE24B6C44346EA28 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65AD43F8BB7734430A4B11B134CFA4E0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C52576C854A422E9FE7819859AE69FB /* MASLayoutConstraint.m */; };
-		69E753A064765388C9FA44918F81E5A5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5705917214655FCC242ABB8381EDE40C /* MASViewConstraint.m */; };
-		77295ADDADD9BC691AD43E3424D4C439 /* Pods-SoundWaveViewDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 486AE730FBE85026B1D1093E98C508E3 /* Pods-SoundWaveViewDemoUITests-dummy.m */; };
-		7992E979C189406EB680F90ECC64E78A /* Pods-SoundWaveViewDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9D2A88DB2BE0C927B09103DEE5581B /* Pods-SoundWaveViewDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CE1CF4AD7AF7DB717EFDE5162395B0B /* PSTAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8F5DAF4D19B4DE9F05CEC88BD47E4A /* PSTAlertController-dummy.m */; };
-		888B4264C1BACEAFC53182D5E71ABD40 /* PSTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88359113315E308C7EF01DCF3EB71ED5 /* PSTAlertController.m */; };
-		892469602EA886064AC260E8CC7E6657 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9570813AD24BD7422FF84D46BD7526 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98655E9ABEE655AC980F3AB422088C38 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2146F342AF9C8AF6106C1FFCDCD9DCF0 /* MASConstraint.m */; };
-		9DF1CD6D437EF1F3334EF52497102528 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 23812BBCBC972686FAFFF771DD86AFA5 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0FDD2A6832EE4854731CDB45C4B5B9F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBF5F8EA0B110B1504DD65EAF8AAD3 /* MASConstraintMaker.m */; };
-		A9C9774D6BCA3A159F4DA9D9D0CD4196 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1797AB504A40BEC4D19ABD51AF0FF114 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		ACD7BB304914A026C363AF54179F68AA /* PSTAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A9246C5AA11465E51A1CB9B2FFD252 /* PSTAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCA624BB0F3C40AE8CBB2B50F6E5FFF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		BF15EB5D767712D379A88291026CCDDB /* Pods-SoundWaveViewDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A50457882B944051CA2390B091179A /* Pods-SoundWaveViewDemoTests-dummy.m */; };
-		BF8E1654DBFF057AFE19CB8BBB5FD061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		C0E60F0CEF08F6B87CA7E77161017610 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FF4B8A7D6B09CF68B846756951BC16 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2B0DA35772F9F6531314F99C5E2BBDD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F27D63BA6A7AB64ED19DB73DE136F129 /* MASCompositeConstraint.m */; };
-		C7F8E19DF007724D472F873813DC9EF8 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F7732282EE5AC5304D1AD80F4AB07ABA /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAD12EC4165B2CC0B80A5E7168037F4B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B7814B8ADE1E640FE8D28F759B7C62 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D01BAC4587D51229685DF092072B1BFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
-		D81AAF3081B8B9CF990D9943CFFF6733 /* Pods-SoundWaveViewDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D39E08B88EF0189EF2BC3E04DB64E1 /* Pods-SoundWaveViewDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9561A7C99AD978BA82BEC10C9DFCE04 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5991BA65A63AB0F5B2CC651B95933F88 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCBA94B9BD9E5DD47BAF0C901C85ABC4 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F7B7D33A37B82B076A3DE448C3AFF5 /* Masonry-dummy.m */; };
-		EC276D99797A5947F84D1AB0BDD5B215 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C324CD53F19517DED417E34F6481505E /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F083D8E141B142AE88918880B09C6921 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
-		F1F7EA0A021AF4A11E1C1D221186B378 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 675CDD9F7D2C6F93EE8038C36725C360 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F53E3A2A1B6B94BF66E65E3A048C6769 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F6174F1BC3D12ED3822F1F3011420C /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F70096947E7F91201BC9FACCF008FE9C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B972CDF3AD681F8560CAD5492439711 /* NSArray+MASAdditions.m */; };
-		FCE43D464D18874613D40BCAF034A404 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE9BA0AC4670734E0F03D0127792B33 /* MASViewAttribute.m */; };
+		04E3F39E81E56B34901376811C490600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6F8FBE15C433F646EE7DEF189346C4 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E66A93788FDBF48EB760FA57D0A4E9 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9A08C22F6C5C2CF90521FFA4F7BAB /* ViewController+MASAdditions.m */; };
+		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA063F091105DAA4EFDEE25CABB1F8E /* NSArray+MASAdditions.m */; };
+		0996A77D873B3B1CC52F92F90830411E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F3BE2528A72903F84FB62B95BAAD0024 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 107B4E8ABA0AF3F74E10E2371881D758 /* Masonry-dummy.m */; };
+		264A3F8CF8F905F65A482C226905216A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA13CD1DA942CBE1E04B0661C8F8C06 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B27313272A1D68A69A5A1097D134EB /* MASViewAttribute.m */; };
+		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9218F06C852D1CAACC5ABACF99C835DD /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A2851FD310BB6695CD9B903D4A1129 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F1AF40C69889DF4FBDDD1EECF6930F /* PSTAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 095D28CA1FDAC07D43EDBB11D24DBF9D /* PSTAlertController-dummy.m */; };
+		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 646E35891F6E598B99E15A05B06DAC2F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C082E673D4BA8495220FE1C7F8F7275 /* PSTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323FC5FFB33C857D494A3FDBCCBBC827 /* PSTAlertController.m */; };
+		5EDDD042D9C679894BA387490717B891 /* Pods-SoundWaveViewDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51010F086F30E8D81B3093B4E37DD187 /* Pods-SoundWaveViewDemoTests-dummy.m */; };
+		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1CF65F5277CF8BB840C2C047C1CD47 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C2493C88D6467D91110F99816FBA4AD /* PSTAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C2B1592EDEB6474F599F6DC7F4200D /* PSTAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CAA1B21B088293BE1456F3068A42539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		76C228E54F27FFB541604DE8904622FE /* Pods-SoundWaveViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53EE3CDE4316C99F5CFD74694EB449F7 /* Pods-SoundWaveViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = ED02DF5C79BA76F7E716D7BE083C4E4B /* MASConstraintMaker.m */; };
+		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D631D2D3BBACB780F5F3A63632BD72 /* MASCompositeConstraint.m */; };
+		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B7C018C86F3EB0FD042B765CF3D349 /* MASLayoutConstraint.m */; };
+		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D25661DCD61E037653ED4179C95F9556 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ABDC0841E9213CAEACC4A4D1B9BD6386 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E08D3F32DC8D40F93E333C140652533 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D04FB73F71B429709BB1F51949000E9 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D285805FC51B822F8839C8B3BF7C9ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD73CBF806956C2EE913E2A45C3CFAD /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0A557FE53E21374F83A63FB1C1BD77 /* Pods-SoundWaveViewDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9FF18118C4084FE0E7F5E4193C3B66 /* Pods-SoundWaveViewDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45747E71BB5AE192CE771A777466575C /* View+MASAdditions.m */; };
+		A38B6CE35D1CB601D976AC372A52EFF1 /* Pods-SoundWaveViewDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E43D2B77BB9D9709683DA4D327BFE52F /* Pods-SoundWaveViewDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C783C4D05ACF0C8B9D98F21E3E2F09 /* MASViewConstraint.m */; };
+		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B86500C07A7C1B7B76DB045030E808 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		DE1685CC2CF995D14124C5F5E2C4619E /* Pods-SoundWaveViewDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6331139E7C960345DA5117FC06E7E /* Pods-SoundWaveViewDemoUITests-dummy.m */; };
+		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C68101F8B85554626753914D34E5C0C /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C18CE495C786B030367BC0AF91724A6 /* MASConstraint.m */; };
+		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C1CA693582FF590E994EE2E5FC54B4 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE289977A621929CDD28CFAFC16AA274 /* Pods-SoundWaveViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F1BAAF8AC7AD84D3E70EB648DDED19 /* Pods-SoundWaveViewDemo-dummy.m */; };
+		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B52E8C5906851CB30195C3F66EEFF0B2 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD6AEA7AD531CCFB41691CCA872992EF /* PSTAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = F17E95977E958E0216A28F8787D6D167 /* PSTAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2D75D28C610E3DBCA3394B7A6C921217 /* PBXContainerItemProxy */ = {
+		3A2B75494C9AD02FB1C941768F870104 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3A6E63A24AE4F11F525BBF4AF99C625;
+			remoteGlobalIDString = 70C4EA97435A5C1DFBEE3B326B66A11D;
+			remoteInfo = "Pods-SoundWaveViewDemo";
+		};
+		51DA23792DDF440DBD5756991EA53A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2027A4F61A8FBE3744D8F38F93912C;
 			remoteInfo = PSTAlertController;
 		};
-		498D16C69107D32F86E8907644BC055D /* PBXContainerItemProxy */ = {
+		A115843EE973B82DCC646DD351838022 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CEE14A3B51B7276BA1DE354DB6DD7BD5;
-			remoteInfo = "Pods-SoundWaveViewDemo";
-		};
-		5B5FDD7992C392389DE4150DAC5B32A3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEE14A3B51B7276BA1DE354DB6DD7BD5;
-			remoteInfo = "Pods-SoundWaveViewDemo";
-		};
-		CE45A01B25409AF7615AD998233DD297 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF7468B4F5259B98018DD1ABAD2D2593;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
+		};
+		C7B20A066A0A3F0661A44E1517F59552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70C4EA97435A5C1DFBEE3B326B66A11D;
+			remoteInfo = "Pods-SoundWaveViewDemo";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002B1AF8007E712F2253D6FB9C0DA6BD /* Pods-SoundWaveViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWaveViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		017BE0A08B9F3D87D1A6DA08A99A486C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04B7814B8ADE1E640FE8D28F759B7C62 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		068ED87B84FC56526B12CCDBFDB60FAA /* Pods-SoundWaveViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWaveViewDemo.release.xcconfig"; sourceTree = "<group>"; };
-		0F9570813AD24BD7422FF84D46BD7526 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		11FF4B8A7D6B09CF68B846756951BC16 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		12A8ADD01438425E5C8E950DCE933803 /* Pods-SoundWaveViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundWaveViewDemo-dummy.m"; sourceTree = "<group>"; };
-		12AEA95140917414B712E42A74B1182B /* Pods-SoundWaveViewDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SoundWaveViewDemoTests.modulemap"; sourceTree = "<group>"; };
-		16F7B7D33A37B82B076A3DE448C3AFF5 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		171C730B20D66937FAAE833F365F2DE1 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		171CB0AE1103E9BBCA61A5E3E91DA552 /* Pods-SoundWaveViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundWaveViewDemo-resources.sh"; sourceTree = "<group>"; };
-		1797AB504A40BEC4D19ABD51AF0FF114 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		18BBF5F8EA0B110B1504DD65EAF8AAD3 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		1B972CDF3AD681F8560CAD5492439711 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		1CB1100ECD2EE25015510DCF9A710C3C /* Pods-SoundWaveViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWaveViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2146F342AF9C8AF6106C1FFCDCD9DCF0 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		23812BBCBC972686FAFFF771DD86AFA5 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		256CFB1A808E524EF53A8B719538293B /* PSTAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSTAlertController-prefix.pch"; sourceTree = "<group>"; };
-		2664732A2B024C6D0B32801E73A96304 /* PSTAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PSTAlertController.framework; path = PSTAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B737885BA4079F075A83C78DA0E3DEE /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		2DC51B6BA23032B161B4C9E2A889F0D0 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		333D53B872C1235221EC3DFEBA85E387 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		37114B7C71A1B99EE7F39AF8F18403B1 /* Pods-SoundWaveViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundWaveViewDemo-umbrella.h"; sourceTree = "<group>"; };
-		446034E8622EEBCE8AF0F7DCDD584F48 /* Pods-SoundWaveViewDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SoundWaveViewDemoUITests.modulemap"; sourceTree = "<group>"; };
-		4493C46510714B4E7CDEC8726ACD15F7 /* Pods-SoundWaveViewDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundWaveViewDemoUITests-resources.sh"; sourceTree = "<group>"; };
-		486AE730FBE85026B1D1093E98C508E3 /* Pods-SoundWaveViewDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundWaveViewDemoUITests-dummy.m"; sourceTree = "<group>"; };
-		4A0B581B54752FF0F8D3B72AAC5A4849 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		4A9D6478FCBFB4AAFA5EA76E68B2375F /* Pods_SoundWaveViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundWaveViewDemo.framework; path = "Pods-SoundWaveViewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C32704FF84556AFB6F0EADD202AA8B6 /* Pods_SoundWaveViewDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundWaveViewDemoTests.framework; path = "Pods-SoundWaveViewDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53E35FEB88FF5A80F5648A6958E1715E /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		54BE028A84B3DC63E62B7DE82F4E4F48 /* Pods_SoundWaveViewDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundWaveViewDemoUITests.framework; path = "Pods-SoundWaveViewDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5705917214655FCC242ABB8381EDE40C /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		5991BA65A63AB0F5B2CC651B95933F88 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		5C52576C854A422E9FE7819859AE69FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		5CE206AC6D51B32A44380F739DD8972D /* Pods-SoundWaveViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWaveViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		675CDD9F7D2C6F93EE8038C36725C360 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		6B773A5AB32F869A4BCB46372CFCFD71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CD6437BCB15FF4502E3765CB318FCDA /* Pods-SoundWaveViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWaveViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		716238CD15AD960BA155D57621C8DD15 /* Pods-SoundWaveViewDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundWaveViewDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		731787D126B4E7153499A0EC72E73472 /* Pods-SoundWaveViewDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundWaveViewDemoTests-frameworks.sh"; sourceTree = "<group>"; };
-		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		76C0B57E847CD27824AF32C30C18C907 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		78A8F87CB59F467BF25684A76EC92454 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A9D2A88DB2BE0C927B09103DEE5581B /* Pods-SoundWaveViewDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundWaveViewDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		84ACF1EC128D367890185E213775900E /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		84C4617C2C22BFD7474998AFC7112F70 /* Pods-SoundWaveViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SoundWaveViewDemo.modulemap"; sourceTree = "<group>"; };
-		86CFB8476D06DC92BEA473986BBAFF6F /* Pods-SoundWaveViewDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundWaveViewDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		88359113315E308C7EF01DCF3EB71ED5 /* PSTAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSTAlertController.m; path = PSTAlertController/PSTAlertController.m; sourceTree = "<group>"; };
-		895792EDBE538F42175ACAB9A78F2A11 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B712FCC0FD1FFE12B4F6F4A0501879D /* PSTAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSTAlertController.xcconfig; sourceTree = "<group>"; };
-		9093CC3EDDC471F3CE1D431D5B6207E8 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95C94F3C2C15D660D829FD91DB43A5A9 /* Pods-SoundWaveViewDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundWaveViewDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		994D8A6819D502F331F2D4E7CEB34AD4 /* PSTAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PSTAlertController.modulemap; sourceTree = "<group>"; };
-		9B28BE722C8F2B0D22139918FD4E705B /* Pods-SoundWaveViewDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundWaveViewDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
-		9ECAAE74F9685E556B651FAA8D4161C3 /* Pods-SoundWaveViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundWaveViewDemo-frameworks.sh"; sourceTree = "<group>"; };
-		A0A50457882B944051CA2390B091179A /* Pods-SoundWaveViewDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundWaveViewDemoTests-dummy.m"; sourceTree = "<group>"; };
-		A7A9246C5AA11465E51A1CB9B2FFD252 /* PSTAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSTAlertController-umbrella.h"; sourceTree = "<group>"; };
-		B0D39E08B88EF0189EF2BC3E04DB64E1 /* Pods-SoundWaveViewDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundWaveViewDemoUITests-umbrella.h"; sourceTree = "<group>"; };
-		B8ABE05227E5150B1EB3ACEA643E0FCC /* Pods-SoundWaveViewDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundWaveViewDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BB6143226A79409E28F46F622A9E2F22 /* Pods-SoundWaveViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundWaveViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C324CD53F19517DED417E34F6481505E /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		C3F6174F1BC3D12ED3822F1F3011420C /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		C8B50FE36A0C17F3DE24B6C44346EA28 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		CCD4F8F1F0567C39051A2E83ABA7AEB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE60FF41907F16D4756BC2D69CF499E2 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		D85FFE49E74F4562A510835D78DDEDF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA0F5800DEE55F6D88BA34C51AFD1E07 /* Pods-SoundWaveViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWaveViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DAA3F46DAAA95D877E8FAC1D6D49EDF5 /* Pods-SoundWaveViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundWaveViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		E1C98B7BC1BE0110084BBB97028D2460 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		EC8F5DAF4D19B4DE9F05CEC88BD47E4A /* PSTAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSTAlertController-dummy.m"; sourceTree = "<group>"; };
-		ECE9BA0AC4670734E0F03D0127792B33 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		F27D63BA6A7AB64ED19DB73DE136F129 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		F69D47BC876454DFFEFE5EE4D2656B00 /* PSTAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSTAlertController.h; path = PSTAlertController/PSTAlertController.h; sourceTree = "<group>"; };
-		F7732282EE5AC5304D1AD80F4AB07ABA /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		FB4B41893764E65C568FA15137E3E598 /* Pods-SoundWaveViewDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundWaveViewDemoTests-resources.sh"; sourceTree = "<group>"; };
+		0305AE8A160D462E43768D721AE2B90F /* Pods-SoundWaveViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWaveViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0666CF7B0ED9EE15297B272C77EE99E2 /* PSTAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSTAlertController-prefix.pch"; sourceTree = "<group>"; };
+		083CC54095FF9A3E2950AA977A426494 /* Pods-SoundWaveViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundWaveViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		095D28CA1FDAC07D43EDBB11D24DBF9D /* PSTAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSTAlertController-dummy.m"; sourceTree = "<group>"; };
+		0C68101F8B85554626753914D34E5C0C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0D04FB73F71B429709BB1F51949000E9 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		0E08D3F32DC8D40F93E333C140652533 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0E915CAD9A6D76F4777441444C2EB325 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		107B4E8ABA0AF3F74E10E2371881D758 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		14B7C018C86F3EB0FD042B765CF3D349 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		1898B8DE7EEC726AED6CC8D392BE0CC9 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		192610DD747851370A2F16A461EB6B5A /* Pods-SoundWaveViewDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundWaveViewDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19B86500C07A7C1B7B76DB045030E808 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		1C18CE495C786B030367BC0AF91724A6 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		1CD73CBF806956C2EE913E2A45C3CFAD /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20381BD2E670DA0A3E83E16EAD162FBA /* PSTAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PSTAlertController.framework; path = PSTAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA13CD1DA942CBE1E04B0661C8F8C06 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		323FC5FFB33C857D494A3FDBCCBBC827 /* PSTAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSTAlertController.m; path = PSTAlertController/PSTAlertController.m; sourceTree = "<group>"; };
+		37C1CA693582FF590E994EE2E5FC54B4 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		3A027C0007D5E48B11F8ED35A1BEE0C5 /* PSTAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PSTAlertController.modulemap; sourceTree = "<group>"; };
+		3AF6331139E7C960345DA5117FC06E7E /* Pods-SoundWaveViewDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundWaveViewDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		43A81CEDA547BEF8B06E3DD21D59CC8E /* Pods-SoundWaveViewDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundWaveViewDemo-Info.plist"; sourceTree = "<group>"; };
+		45747E71BB5AE192CE771A777466575C /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		458E1A3C249EFCC236008965AFB19B38 /* Pods_SoundWaveViewDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundWaveViewDemoTests.framework; path = "Pods-SoundWaveViewDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C783C4D05ACF0C8B9D98F21E3E2F09 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		4CA063F091105DAA4EFDEE25CABB1F8E /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		51010F086F30E8D81B3093B4E37DD187 /* Pods-SoundWaveViewDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundWaveViewDemoTests-dummy.m"; sourceTree = "<group>"; };
+		53C2B1592EDEB6474F599F6DC7F4200D /* PSTAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSTAlertController-umbrella.h"; sourceTree = "<group>"; };
+		53EE3CDE4316C99F5CFD74694EB449F7 /* Pods-SoundWaveViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundWaveViewDemo-umbrella.h"; sourceTree = "<group>"; };
+		57BFC614E96198D023975A673373389E /* Pods-SoundWaveViewDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundWaveViewDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		580252F316C5F7E4A3CE3284B6E071C7 /* Pods-SoundWaveViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundWaveViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A1CF65F5277CF8BB840C2C047C1CD47 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		5BE88EFD641A24A5432F7CF00740DF44 /* Pods-SoundWaveViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SoundWaveViewDemo.modulemap"; sourceTree = "<group>"; };
+		5FC9A08C22F6C5C2CF90521FFA4F7BAB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		6458BC36B0C6205169D49EBEC0FD0C5A /* Pods_SoundWaveViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundWaveViewDemo.framework; path = "Pods-SoundWaveViewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		646E35891F6E598B99E15A05B06DAC2F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		6AFA2662BD0FDC1A4E9FD61B60E9ADE1 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		6B38618431E48B5A9F80ED2D8B80A754 /* Pods-SoundWaveViewDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundWaveViewDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E6F8FBE15C433F646EE7DEF189346C4 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		7279FD1CA29AF30ED7B4B0FB49B43054 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		834A9FD614042EF8981BE5C21E4C03F8 /* Pods-SoundWaveViewDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundWaveViewDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85E66A93788FDBF48EB760FA57D0A4E9 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		8F61DE1219808E623895444CEB61CAB5 /* Pods-SoundWaveViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWaveViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		91F7E684D6B4C983625A9F1D0673E6BA /* Pods-SoundWaveViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundWaveViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		9218F06C852D1CAACC5ABACF99C835DD /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		9ADE27373AE096E18AF5B582AB9D9505 /* Pods-SoundWaveViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWaveViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2530F4C43290B29871BD5B4323B0B18 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		A5A2851FD310BB6695CD9B903D4A1129 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		ABDC0841E9213CAEACC4A4D1B9BD6386 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		B2480CCB96B2697130E9751967C58A67 /* Pods-SoundWaveViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWaveViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B52E8C5906851CB30195C3F66EEFF0B2 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		B5E8320B6E19F00CA8807736F9A1B05E /* PSTAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSTAlertController.debug.xcconfig; sourceTree = "<group>"; };
+		C6D631D2D3BBACB780F5F3A63632BD72 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		CE94846C14934F529DD00885C3D2F920 /* Pods-SoundWaveViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWaveViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1FDA111EB085786E7F9C74EE08610A3 /* PSTAlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSTAlertController.release.xcconfig; sourceTree = "<group>"; };
+		D25661DCD61E037653ED4179C95F9556 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D302760192DB71EC3B54FE9D3005CDC2 /* Pods-SoundWaveViewDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SoundWaveViewDemoTests.modulemap"; sourceTree = "<group>"; };
+		D65E64C9AAE2AF653E0A93A0A5D2E2EB /* PSTAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PSTAlertController-Info.plist"; sourceTree = "<group>"; };
+		DD9FF18118C4084FE0E7F5E4193C3B66 /* Pods-SoundWaveViewDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundWaveViewDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		E43D2B77BB9D9709683DA4D327BFE52F /* Pods-SoundWaveViewDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundWaveViewDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		E6B27313272A1D68A69A5A1097D134EB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		E74447B71BD4235643D5DFB8F35145BD /* Pods-SoundWaveViewDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundWaveViewDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED02DF5C79BA76F7E716D7BE083C4E4B /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		F0F1BAAF8AC7AD84D3E70EB648DDED19 /* Pods-SoundWaveViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundWaveViewDemo-dummy.m"; sourceTree = "<group>"; };
+		F17E95977E958E0216A28F8787D6D167 /* PSTAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSTAlertController.h; path = PSTAlertController/PSTAlertController.h; sourceTree = "<group>"; };
+		F1BE6EF4DA2218F85940D1CC9158C654 /* Pods_SoundWaveViewDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundWaveViewDemoUITests.framework; path = "Pods-SoundWaveViewDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CE49E168B8428E28E934DDF1AC10DD /* Pods-SoundWaveViewDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundWaveViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		F2078DF0A6D6FBB862FA184DE7AF3371 /* Pods-SoundWaveViewDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SoundWaveViewDemoUITests.modulemap"; sourceTree = "<group>"; };
+		F3BE2528A72903F84FB62B95BAAD0024 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		F54DD5AD6CD01379B89EB4A6534AFD7A /* Pods-SoundWaveViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWaveViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		356692DC6A62282F9EE67F3C34785810 /* Frameworks */ = {
+		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1C5E38643181D43B016BC08112F198 /* Foundation.framework in Frameworks */,
-				D01BAC4587D51229685DF092072B1BFA /* UIKit.framework in Frameworks */,
+				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
+				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A7D6E70DA2F5E0F418BCB15090269FF /* Frameworks */ = {
+		66148CDB54CA53CCAF4513BE2D4F77FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B68EAAD60BD0B67B42711BF6DACDC9C /* Foundation.framework in Frameworks */,
-				F083D8E141B142AE88918880B09C6921 /* UIKit.framework in Frameworks */,
+				9D285805FC51B822F8839C8B3BF7C9ED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EA1B7204CAAC4068C22A691A8B26F08 /* Frameworks */ = {
+		77672384B9350630EBE1BC19C5D7927C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				264B3C25A65D99E48DC8C6803788509A /* Foundation.framework in Frameworks */,
+				04E3F39E81E56B34901376811C490600 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		936591E891540E8285B89C24F437B955 /* Frameworks */ = {
+		AA2A82EA9B31C8E0F540D0B1EB8383BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8E1654DBFF057AFE19CB8BBB5FD061 /* Foundation.framework in Frameworks */,
+				6CAA1B21B088293BE1456F3068A42539 /* Foundation.framework in Frameworks */,
+				0996A77D873B3B1CC52F92F90830411E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A87ADB1EE26D856333B877370D474471 /* Frameworks */ = {
+		C8F592F8F068E065815E0C28EF88912E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA624BB0F3C40AE8CBB2B50F6E5FFF1 /* Foundation.framework in Frameworks */,
+				264A3F8CF8F905F65A482C226905216A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
-				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		2E718EDAD78AF893FF37CE6177581738 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				895792EDBE538F42175ACAB9A78F2A11 /* Masonry.framework */,
-				4A9D6478FCBFB4AAFA5EA76E68B2375F /* Pods_SoundWaveViewDemo.framework */,
-				4C32704FF84556AFB6F0EADD202AA8B6 /* Pods_SoundWaveViewDemoTests.framework */,
-				54BE028A84B3DC63E62B7DE82F4E4F48 /* Pods_SoundWaveViewDemoUITests.framework */,
-				2664732A2B024C6D0B32801E73A96304 /* PSTAlertController.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		37E54D3C7A0701798B55B8AA6733DAB3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				017BE0A08B9F3D87D1A6DA08A99A486C /* Info.plist */,
-				994D8A6819D502F331F2D4E7CEB34AD4 /* PSTAlertController.modulemap */,
-				8B712FCC0FD1FFE12B4F6F4A0501879D /* PSTAlertController.xcconfig */,
-				EC8F5DAF4D19B4DE9F05CEC88BD47E4A /* PSTAlertController-dummy.m */,
-				256CFB1A808E524EF53A8B719538293B /* PSTAlertController-prefix.pch */,
-				A7A9246C5AA11465E51A1CB9B2FFD252 /* PSTAlertController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PSTAlertController";
-			sourceTree = "<group>";
-		};
-		39FE4121CDB527011875BD4072C2FBF3 /* PSTAlertController */ = {
-			isa = PBXGroup;
-			children = (
-				F69D47BC876454DFFEFE5EE4D2656B00 /* PSTAlertController.h */,
-				88359113315E308C7EF01DCF3EB71ED5 /* PSTAlertController.m */,
-				37E54D3C7A0701798B55B8AA6733DAB3 /* Support Files */,
-			);
-			name = PSTAlertController;
-			path = PSTAlertController;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				06CDD10DE71306278CF89108B3036DFD /* iOS */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5048F614CEC870E3C0F4935EF7732884 /* Pods-SoundWaveViewDemo */ = {
+		4C1A8B4BECDF4828C15A3BD8D8E48A27 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCD4F8F1F0567C39051A2E83ABA7AEB8 /* Info.plist */,
-				84C4617C2C22BFD7474998AFC7112F70 /* Pods-SoundWaveViewDemo.modulemap */,
-				BB6143226A79409E28F46F622A9E2F22 /* Pods-SoundWaveViewDemo-acknowledgements.markdown */,
-				DAA3F46DAAA95D877E8FAC1D6D49EDF5 /* Pods-SoundWaveViewDemo-acknowledgements.plist */,
-				12A8ADD01438425E5C8E950DCE933803 /* Pods-SoundWaveViewDemo-dummy.m */,
-				9ECAAE74F9685E556B651FAA8D4161C3 /* Pods-SoundWaveViewDemo-frameworks.sh */,
-				171CB0AE1103E9BBCA61A5E3E91DA552 /* Pods-SoundWaveViewDemo-resources.sh */,
-				37114B7C71A1B99EE7F39AF8F18403B1 /* Pods-SoundWaveViewDemo-umbrella.h */,
-				002B1AF8007E712F2253D6FB9C0DA6BD /* Pods-SoundWaveViewDemo.debug.xcconfig */,
-				068ED87B84FC56526B12CCDBFDB60FAA /* Pods-SoundWaveViewDemo.release.xcconfig */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				6458BC36B0C6205169D49EBEC0FD0C5A /* Pods_SoundWaveViewDemo.framework */,
+				458E1A3C249EFCC236008965AFB19B38 /* Pods_SoundWaveViewDemoTests.framework */,
+				F1BE6EF4DA2218F85940D1CC9158C654 /* Pods_SoundWaveViewDemoUITests.framework */,
+				20381BD2E670DA0A3E83E16EAD162FBA /* PSTAlertController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5251A6573C97003E9050C8851759F240 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62623E710C9C7B61ED0F2413D9B9D047 /* Pods-SoundWaveViewDemo */,
+				C4FBE891CD76EF6CCE5B2BDF3E19967E /* Pods-SoundWaveViewDemoTests */,
+				71575ADF7041F85C56C1034A9FFC9C68 /* Pods-SoundWaveViewDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		62623E710C9C7B61ED0F2413D9B9D047 /* Pods-SoundWaveViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5BE88EFD641A24A5432F7CF00740DF44 /* Pods-SoundWaveViewDemo.modulemap */,
+				083CC54095FF9A3E2950AA977A426494 /* Pods-SoundWaveViewDemo-acknowledgements.markdown */,
+				580252F316C5F7E4A3CE3284B6E071C7 /* Pods-SoundWaveViewDemo-acknowledgements.plist */,
+				F0F1BAAF8AC7AD84D3E70EB648DDED19 /* Pods-SoundWaveViewDemo-dummy.m */,
+				91F7E684D6B4C983625A9F1D0673E6BA /* Pods-SoundWaveViewDemo-frameworks.sh */,
+				43A81CEDA547BEF8B06E3DD21D59CC8E /* Pods-SoundWaveViewDemo-Info.plist */,
+				53EE3CDE4316C99F5CFD74694EB449F7 /* Pods-SoundWaveViewDemo-umbrella.h */,
+				8F61DE1219808E623895444CEB61CAB5 /* Pods-SoundWaveViewDemo.debug.xcconfig */,
+				B2480CCB96B2697130E9751967C58A67 /* Pods-SoundWaveViewDemo.release.xcconfig */,
 			);
 			name = "Pods-SoundWaveViewDemo";
 			path = "Target Support Files/Pods-SoundWaveViewDemo";
 			sourceTree = "<group>";
 		};
-		7BBDDB96FC3531E58C64249404DBE298 /* Pods-SoundWaveViewDemoTests */ = {
+		71575ADF7041F85C56C1034A9FFC9C68 /* Pods-SoundWaveViewDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6B773A5AB32F869A4BCB46372CFCFD71 /* Info.plist */,
-				12AEA95140917414B712E42A74B1182B /* Pods-SoundWaveViewDemoTests.modulemap */,
-				B8ABE05227E5150B1EB3ACEA643E0FCC /* Pods-SoundWaveViewDemoTests-acknowledgements.markdown */,
-				95C94F3C2C15D660D829FD91DB43A5A9 /* Pods-SoundWaveViewDemoTests-acknowledgements.plist */,
-				A0A50457882B944051CA2390B091179A /* Pods-SoundWaveViewDemoTests-dummy.m */,
-				731787D126B4E7153499A0EC72E73472 /* Pods-SoundWaveViewDemoTests-frameworks.sh */,
-				FB4B41893764E65C568FA15137E3E598 /* Pods-SoundWaveViewDemoTests-resources.sh */,
-				7A9D2A88DB2BE0C927B09103DEE5581B /* Pods-SoundWaveViewDemoTests-umbrella.h */,
-				1CB1100ECD2EE25015510DCF9A710C3C /* Pods-SoundWaveViewDemoTests.debug.xcconfig */,
-				5CE206AC6D51B32A44380F739DD8972D /* Pods-SoundWaveViewDemoTests.release.xcconfig */,
-			);
-			name = "Pods-SoundWaveViewDemoTests";
-			path = "Target Support Files/Pods-SoundWaveViewDemoTests";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				B75B0227A55EA0A210E97ED0DF333932 /* Pods */,
-				2E718EDAD78AF893FF37CE6177581738 /* Products */,
-				BAA9C1CE34D6708E1988572A7E466038 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		AEABD8FB17CF8FB8E1CAEFCB519998A2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D85FFE49E74F4562A510835D78DDEDF3 /* Info.plist */,
-				E1C98B7BC1BE0110084BBB97028D2460 /* Masonry.modulemap */,
-				4A0B581B54752FF0F8D3B72AAC5A4849 /* Masonry.xcconfig */,
-				16F7B7D33A37B82B076A3DE448C3AFF5 /* Masonry-dummy.m */,
-				2DC51B6BA23032B161B4C9E2A889F0D0 /* Masonry-prefix.pch */,
-				C3F6174F1BC3D12ED3822F1F3011420C /* Masonry-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
-		B75B0227A55EA0A210E97ED0DF333932 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D7609EAF260C4893BEF53E8239D281D1 /* Masonry */,
-				39FE4121CDB527011875BD4072C2FBF3 /* PSTAlertController */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BAA9C1CE34D6708E1988572A7E466038 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5048F614CEC870E3C0F4935EF7732884 /* Pods-SoundWaveViewDemo */,
-				7BBDDB96FC3531E58C64249404DBE298 /* Pods-SoundWaveViewDemoTests */,
-				BBB9A61BD9C4B102B2A84407CDC9DDE2 /* Pods-SoundWaveViewDemoUITests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BBB9A61BD9C4B102B2A84407CDC9DDE2 /* Pods-SoundWaveViewDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				78A8F87CB59F467BF25684A76EC92454 /* Info.plist */,
-				446034E8622EEBCE8AF0F7DCDD584F48 /* Pods-SoundWaveViewDemoUITests.modulemap */,
-				86CFB8476D06DC92BEA473986BBAFF6F /* Pods-SoundWaveViewDemoUITests-acknowledgements.markdown */,
-				716238CD15AD960BA155D57621C8DD15 /* Pods-SoundWaveViewDemoUITests-acknowledgements.plist */,
-				486AE730FBE85026B1D1093E98C508E3 /* Pods-SoundWaveViewDemoUITests-dummy.m */,
-				9B28BE722C8F2B0D22139918FD4E705B /* Pods-SoundWaveViewDemoUITests-frameworks.sh */,
-				4493C46510714B4E7CDEC8726ACD15F7 /* Pods-SoundWaveViewDemoUITests-resources.sh */,
-				B0D39E08B88EF0189EF2BC3E04DB64E1 /* Pods-SoundWaveViewDemoUITests-umbrella.h */,
-				DA0F5800DEE55F6D88BA34C51AFD1E07 /* Pods-SoundWaveViewDemoUITests.debug.xcconfig */,
-				6CD6437BCB15FF4502E3765CB318FCDA /* Pods-SoundWaveViewDemoUITests.release.xcconfig */,
+				F2078DF0A6D6FBB862FA184DE7AF3371 /* Pods-SoundWaveViewDemoUITests.modulemap */,
+				834A9FD614042EF8981BE5C21E4C03F8 /* Pods-SoundWaveViewDemoUITests-acknowledgements.markdown */,
+				6B38618431E48B5A9F80ED2D8B80A754 /* Pods-SoundWaveViewDemoUITests-acknowledgements.plist */,
+				3AF6331139E7C960345DA5117FC06E7E /* Pods-SoundWaveViewDemoUITests-dummy.m */,
+				57BFC614E96198D023975A673373389E /* Pods-SoundWaveViewDemoUITests-Info.plist */,
+				E43D2B77BB9D9709683DA4D327BFE52F /* Pods-SoundWaveViewDemoUITests-umbrella.h */,
+				0305AE8A160D462E43768D721AE2B90F /* Pods-SoundWaveViewDemoUITests.debug.xcconfig */,
+				9ADE27373AE096E18AF5B582AB9D9505 /* Pods-SoundWaveViewDemoUITests.release.xcconfig */,
 			);
 			name = "Pods-SoundWaveViewDemoUITests";
 			path = "Target Support Files/Pods-SoundWaveViewDemoUITests";
 			sourceTree = "<group>";
 		};
-		D7609EAF260C4893BEF53E8239D281D1 /* Masonry */ = {
+		7C52E0F4D3AE1ABB559929B2020AD308 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				84ACF1EC128D367890185E213775900E /* MASCompositeConstraint.h */,
-				F27D63BA6A7AB64ED19DB73DE136F129 /* MASCompositeConstraint.m */,
-				9093CC3EDDC471F3CE1D431D5B6207E8 /* MASConstraint.h */,
-				2146F342AF9C8AF6106C1FFCDCD9DCF0 /* MASConstraint.m */,
-				C324CD53F19517DED417E34F6481505E /* MASConstraint+Private.h */,
-				5991BA65A63AB0F5B2CC651B95933F88 /* MASConstraintMaker.h */,
-				18BBF5F8EA0B110B1504DD65EAF8AAD3 /* MASConstraintMaker.m */,
-				2B737885BA4079F075A83C78DA0E3DEE /* MASLayoutConstraint.h */,
-				5C52576C854A422E9FE7819859AE69FB /* MASLayoutConstraint.m */,
-				C8B50FE36A0C17F3DE24B6C44346EA28 /* Masonry.h */,
-				675CDD9F7D2C6F93EE8038C36725C360 /* MASUtilities.h */,
-				04B7814B8ADE1E640FE8D28F759B7C62 /* MASViewAttribute.h */,
-				ECE9BA0AC4670734E0F03D0127792B33 /* MASViewAttribute.m */,
-				171C730B20D66937FAAE833F365F2DE1 /* MASViewConstraint.h */,
-				5705917214655FCC242ABB8381EDE40C /* MASViewConstraint.m */,
-				0F9570813AD24BD7422FF84D46BD7526 /* NSArray+MASAdditions.h */,
-				1B972CDF3AD681F8560CAD5492439711 /* NSArray+MASAdditions.m */,
-				23812BBCBC972686FAFFF771DD86AFA5 /* NSArray+MASShorthandAdditions.h */,
-				11FF4B8A7D6B09CF68B846756951BC16 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				1797AB504A40BEC4D19ABD51AF0FF114 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				333D53B872C1235221EC3DFEBA85E387 /* View+MASAdditions.h */,
-				CE60FF41907F16D4756BC2D69CF499E2 /* View+MASAdditions.m */,
-				76C0B57E847CD27824AF32C30C18C907 /* View+MASShorthandAdditions.h */,
-				F7732282EE5AC5304D1AD80F4AB07ABA /* ViewController+MASAdditions.h */,
-				53E35FEB88FF5A80F5648A6958E1715E /* ViewController+MASAdditions.m */,
-				AEABD8FB17CF8FB8E1CAEFCB519998A2 /* Support Files */,
+				0E915CAD9A6D76F4777441444C2EB325 /* Masonry.modulemap */,
+				107B4E8ABA0AF3F74E10E2371881D758 /* Masonry-dummy.m */,
+				6AFA2662BD0FDC1A4E9FD61B60E9ADE1 /* Masonry-Info.plist */,
+				7279FD1CA29AF30ED7B4B0FB49B43054 /* Masonry-prefix.pch */,
+				5A1CF65F5277CF8BB840C2C047C1CD47 /* Masonry-umbrella.h */,
+				1898B8DE7EEC726AED6CC8D392BE0CC9 /* Masonry.debug.xcconfig */,
+				A2530F4C43290B29871BD5B4323B0B18 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		90440A0166A849BD26FEDDFBCC5A23F2 /* PSTAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				F17E95977E958E0216A28F8787D6D167 /* PSTAlertController.h */,
+				323FC5FFB33C857D494A3FDBCCBBC827 /* PSTAlertController.m */,
+				F2E1E9D90976B89226C10A465AB07781 /* Support Files */,
+			);
+			name = PSTAlertController;
+			path = PSTAlertController;
+			sourceTree = "<group>";
+		};
+		9F03A9518091518F282F281848C702B9 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				0E08D3F32DC8D40F93E333C140652533 /* MASCompositeConstraint.h */,
+				C6D631D2D3BBACB780F5F3A63632BD72 /* MASCompositeConstraint.m */,
+				0D04FB73F71B429709BB1F51949000E9 /* MASConstraint.h */,
+				1C18CE495C786B030367BC0AF91724A6 /* MASConstraint.m */,
+				1CD73CBF806956C2EE913E2A45C3CFAD /* MASConstraint+Private.h */,
+				B52E8C5906851CB30195C3F66EEFF0B2 /* MASConstraintMaker.h */,
+				ED02DF5C79BA76F7E716D7BE083C4E4B /* MASConstraintMaker.m */,
+				ABDC0841E9213CAEACC4A4D1B9BD6386 /* MASLayoutConstraint.h */,
+				14B7C018C86F3EB0FD042B765CF3D349 /* MASLayoutConstraint.m */,
+				9218F06C852D1CAACC5ABACF99C835DD /* Masonry.h */,
+				2FA13CD1DA942CBE1E04B0661C8F8C06 /* MASUtilities.h */,
+				A5A2851FD310BB6695CD9B903D4A1129 /* MASViewAttribute.h */,
+				E6B27313272A1D68A69A5A1097D134EB /* MASViewAttribute.m */,
+				37C1CA693582FF590E994EE2E5FC54B4 /* MASViewConstraint.h */,
+				45C783C4D05ACF0C8B9D98F21E3E2F09 /* MASViewConstraint.m */,
+				85E66A93788FDBF48EB760FA57D0A4E9 /* NSArray+MASAdditions.h */,
+				4CA063F091105DAA4EFDEE25CABB1F8E /* NSArray+MASAdditions.m */,
+				6E6F8FBE15C433F646EE7DEF189346C4 /* NSArray+MASShorthandAdditions.h */,
+				F3BE2528A72903F84FB62B95BAAD0024 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				19B86500C07A7C1B7B76DB045030E808 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				646E35891F6E598B99E15A05B06DAC2F /* View+MASAdditions.h */,
+				45747E71BB5AE192CE771A777466575C /* View+MASAdditions.m */,
+				0C68101F8B85554626753914D34E5C0C /* View+MASShorthandAdditions.h */,
+				D25661DCD61E037653ED4179C95F9556 /* ViewController+MASAdditions.h */,
+				5FC9A08C22F6C5C2CF90521FFA4F7BAB /* ViewController+MASAdditions.m */,
+				7C52E0F4D3AE1ABB559929B2020AD308 /* Support Files */,
 			);
 			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		C07975452BC68B6C5888C986C0102EEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F03A9518091518F282F281848C702B9 /* Masonry */,
+				90440A0166A849BD26FEDDFBCC5A23F2 /* PSTAlertController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4FBE891CD76EF6CCE5B2BDF3E19967E /* Pods-SoundWaveViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D302760192DB71EC3B54FE9D3005CDC2 /* Pods-SoundWaveViewDemoTests.modulemap */,
+				192610DD747851370A2F16A461EB6B5A /* Pods-SoundWaveViewDemoTests-acknowledgements.markdown */,
+				E74447B71BD4235643D5DFB8F35145BD /* Pods-SoundWaveViewDemoTests-acknowledgements.plist */,
+				51010F086F30E8D81B3093B4E37DD187 /* Pods-SoundWaveViewDemoTests-dummy.m */,
+				F1CE49E168B8428E28E934DDF1AC10DD /* Pods-SoundWaveViewDemoTests-Info.plist */,
+				DD9FF18118C4084FE0E7F5E4193C3B66 /* Pods-SoundWaveViewDemoTests-umbrella.h */,
+				CE94846C14934F529DD00885C3D2F920 /* Pods-SoundWaveViewDemoTests.debug.xcconfig */,
+				F54DD5AD6CD01379B89EB4A6534AFD7A /* Pods-SoundWaveViewDemoTests.release.xcconfig */,
+			);
+			name = "Pods-SoundWaveViewDemoTests";
+			path = "Target Support Files/Pods-SoundWaveViewDemoTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				C07975452BC68B6C5888C986C0102EEB /* Pods */,
+				4C1A8B4BECDF4828C15A3BD8D8E48A27 /* Products */,
+				5251A6573C97003E9050C8851759F240 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F2E1E9D90976B89226C10A465AB07781 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A027C0007D5E48B11F8ED35A1BEE0C5 /* PSTAlertController.modulemap */,
+				095D28CA1FDAC07D43EDBB11D24DBF9D /* PSTAlertController-dummy.m */,
+				D65E64C9AAE2AF653E0A93A0A5D2E2EB /* PSTAlertController-Info.plist */,
+				0666CF7B0ED9EE15297B272C77EE99E2 /* PSTAlertController-prefix.pch */,
+				53C2B1592EDEB6474F599F6DC7F4200D /* PSTAlertController-umbrella.h */,
+				B5E8320B6E19F00CA8807736F9A1B05E /* PSTAlertController.debug.xcconfig */,
+				D1FDA111EB085786E7F9C74EE08610A3 /* PSTAlertController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PSTAlertController";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29AC884F33298ACCFE3D240FB797639F /* Headers */ = {
+		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD7BB304914A026C363AF54179F68AA /* PSTAlertController-umbrella.h in Headers */,
-				4DDA8E2C394C4974D38C2022E482271F /* PSTAlertController.h in Headers */,
+				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
+				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
+				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
+				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
+				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
+				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
+				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
+				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
+				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
+				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
+				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
+				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
+				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
+				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AE45A7E3C9C988E4E03C172716A8ED9 /* Headers */ = {
+		876A0DC528E27826D4B552EBFD8FC864 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F7D64E2274A929B8B77E6C170937097 /* Pods-SoundWaveViewDemo-umbrella.h in Headers */,
+				9E0A557FE53E21374F83A63FB1C1BD77 /* Pods-SoundWaveViewDemoTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45F8EDB81B405B9AF3E3CCB4B59ABD97 /* Headers */ = {
+		98BCE08E50C9FD89F711C063474628D7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59F1F34EC8668D299B1A1BEA3AD51A98 /* MASCompositeConstraint.h in Headers */,
-				EC276D99797A5947F84D1AB0BDD5B215 /* MASConstraint+Private.h in Headers */,
-				03E6C18745D7D3CFAD4F513DE97B954B /* MASConstraint.h in Headers */,
-				D9561A7C99AD978BA82BEC10C9DFCE04 /* MASConstraintMaker.h in Headers */,
-				50FADD0D1A73B1AD065B54A6355CAA06 /* MASLayoutConstraint.h in Headers */,
-				F53E3A2A1B6B94BF66E65E3A048C6769 /* Masonry-umbrella.h in Headers */,
-				61D6D891F5267AB65CD97EC2C0D4BA9C /* Masonry.h in Headers */,
-				F1F7EA0A021AF4A11E1C1D221186B378 /* MASUtilities.h in Headers */,
-				CAD12EC4165B2CC0B80A5E7168037F4B /* MASViewAttribute.h in Headers */,
-				24AA095821D4A1EE5818A0374DFCD08B /* MASViewConstraint.h in Headers */,
-				892469602EA886064AC260E8CC7E6657 /* NSArray+MASAdditions.h in Headers */,
-				9DF1CD6D437EF1F3334EF52497102528 /* NSArray+MASShorthandAdditions.h in Headers */,
-				C0E60F0CEF08F6B87CA7E77161017610 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				4A3DD37ABD9A5758C3BE31E8B1CF7B29 /* View+MASAdditions.h in Headers */,
-				0CB26840B2CD2CDB40F8A29A935233E3 /* View+MASShorthandAdditions.h in Headers */,
-				C7F8E19DF007724D472F873813DC9EF8 /* ViewController+MASAdditions.h in Headers */,
+				A38B6CE35D1CB601D976AC372A52EFF1 /* Pods-SoundWaveViewDemoUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46F0BD83E8603EE1D0A89A1084AD5282 /* Headers */ = {
+		AFA20C91D9586BFCA06F1563F575BF0C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7992E979C189406EB680F90ECC64E78A /* Pods-SoundWaveViewDemoTests-umbrella.h in Headers */,
+				6C2493C88D6467D91110F99816FBA4AD /* PSTAlertController-umbrella.h in Headers */,
+				FD6AEA7AD531CCFB41691CCA872992EF /* PSTAlertController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8D7CEFC46286A82C5AE5EC7B1B88B15 /* Headers */ = {
+		D8536B0C405119D731128F1D22E2FE90 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D81AAF3081B8B9CF990D9943CFFF6733 /* Pods-SoundWaveViewDemoUITests-umbrella.h in Headers */,
+				76C228E54F27FFB541604DE8904622FE /* Pods-SoundWaveViewDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		45ACBEFACCFBBAA855CC7E48C49BC7AC /* Pods-SoundWaveViewDemoTests */ = {
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5252E278735628E188636B151C605960 /* Build configuration list for PBXNativeTarget "Pods-SoundWaveViewDemoTests" */;
+			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				46F0BD83E8603EE1D0A89A1084AD5282 /* Headers */,
-				942795B54ED8CFF44F039BCBB8F2FD64 /* Sources */,
-				936591E891540E8285B89C24F437B955 /* Frameworks */,
-				B33EE107F89BB01B7141AD210590A557 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EF6BCC77E6354CD3FB70DE7AC1797A35 /* PBXTargetDependency */,
-			);
-			name = "Pods-SoundWaveViewDemoTests";
-			productName = "Pods-SoundWaveViewDemoTests";
-			productReference = 4C32704FF84556AFB6F0EADD202AA8B6 /* Pods_SoundWaveViewDemoTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C25A5743CB774BDF005E6BB8742B38A5 /* Pods-SoundWaveViewDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA2B98A484A87BDA5810193CFCCBE643 /* Build configuration list for PBXNativeTarget "Pods-SoundWaveViewDemoUITests" */;
-			buildPhases = (
-				C8D7CEFC46286A82C5AE5EC7B1B88B15 /* Headers */,
-				91E6F6C1AC26350989148B87C3C677CB /* Sources */,
-				8EA1B7204CAAC4068C22A691A8B26F08 /* Frameworks */,
-				452314065F799D68E002CD36B5578DF0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CA182FEAEDBDF682919C79DDC8A0C9A7 /* PBXTargetDependency */,
-			);
-			name = "Pods-SoundWaveViewDemoUITests";
-			productName = "Pods-SoundWaveViewDemoUITests";
-			productReference = 54BE028A84B3DC63E62B7DE82F4E4F48 /* Pods_SoundWaveViewDemoUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CEE14A3B51B7276BA1DE354DB6DD7BD5 /* Pods-SoundWaveViewDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62EE2DF8D1D189562994E1A8CE5CA47A /* Build configuration list for PBXNativeTarget "Pods-SoundWaveViewDemo" */;
-			buildPhases = (
-				2AE45A7E3C9C988E4E03C172716A8ED9 /* Headers */,
-				ADE90E029A238D065A0DFFE9CA3A5F5A /* Sources */,
-				A87ADB1EE26D856333B877370D474471 /* Frameworks */,
-				4838490757EBA768A62179B9EE5B4005 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9475152038A8E30DCFB543A66B149B1C /* PBXTargetDependency */,
-				212A057F7E7B09EE3AB43565DEBA6EA0 /* PBXTargetDependency */,
-			);
-			name = "Pods-SoundWaveViewDemo";
-			productName = "Pods-SoundWaveViewDemo";
-			productReference = 4A9D6478FCBFB4AAFA5EA76E68B2375F /* Pods_SoundWaveViewDemo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D3A6E63A24AE4F11F525BBF4AF99C625 /* PSTAlertController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 41AF74CF9DD584923C2A8A85D7C9A303 /* Build configuration list for PBXNativeTarget "PSTAlertController" */;
-			buildPhases = (
-				29AC884F33298ACCFE3D240FB797639F /* Headers */,
-				976F082B8C4D5BBBF41F74590146F6CD /* Sources */,
-				356692DC6A62282F9EE67F3C34785810 /* Frameworks */,
-				D9942D956815D25C8C3C02AEECD34CF5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PSTAlertController;
-			productName = PSTAlertController;
-			productReference = 2664732A2B024C6D0B32801E73A96304 /* PSTAlertController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FF7468B4F5259B98018DD1ABAD2D2593 /* Masonry */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84710AC86F03C1B2256418269E74EE40 /* Build configuration list for PBXNativeTarget "Masonry" */;
-			buildPhases = (
-				45F8EDB81B405B9AF3E3CCB4B59ABD97 /* Headers */,
-				79D0EB5C92240FE3B1FF78CA02696BF1 /* Sources */,
-				3A7D6E70DA2F5E0F418BCB15090269FF /* Frameworks */,
-				BAA9753AEC5C54F599FCE4798F7CD520 /* Resources */,
+				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
+				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
+				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
+				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -549,69 +467,146 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 895792EDBE538F42175ACAB9A78F2A11 /* Masonry.framework */;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C2027A4F61A8FBE3744D8F38F93912C /* PSTAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297593F7C8543D45D8C664AF2017EB06 /* Build configuration list for PBXNativeTarget "PSTAlertController" */;
+			buildPhases = (
+				AFA20C91D9586BFCA06F1563F575BF0C /* Headers */,
+				AB5F6AD66ACB2C584DC47DCC09D2763B /* Sources */,
+				AA2A82EA9B31C8E0F540D0B1EB8383BE /* Frameworks */,
+				F8680E13A654ADE62AF9E65F65492225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSTAlertController;
+			productName = PSTAlertController;
+			productReference = 20381BD2E670DA0A3E83E16EAD162FBA /* PSTAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70C4EA97435A5C1DFBEE3B326B66A11D /* Pods-SoundWaveViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76F589C80E6D25C18D879DF53C5110D /* Build configuration list for PBXNativeTarget "Pods-SoundWaveViewDemo" */;
+			buildPhases = (
+				D8536B0C405119D731128F1D22E2FE90 /* Headers */,
+				C1B900993FE194F11FEA9D2CF4369E1A /* Sources */,
+				66148CDB54CA53CCAF4513BE2D4F77FE /* Frameworks */,
+				3721EF71ABBB8A38D3674423EB4F63A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8612C8FE81BCC463F1059B53C0AC2BD5 /* PBXTargetDependency */,
+				77CDFE3CD3486CA75CA74959501B509E /* PBXTargetDependency */,
+			);
+			name = "Pods-SoundWaveViewDemo";
+			productName = "Pods-SoundWaveViewDemo";
+			productReference = 6458BC36B0C6205169D49EBEC0FD0C5A /* Pods_SoundWaveViewDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94EA4018ED986BDF8306CC9C3A892900 /* Pods-SoundWaveViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C21EE5C95891D65B31D8F854C12447 /* Build configuration list for PBXNativeTarget "Pods-SoundWaveViewDemoUITests" */;
+			buildPhases = (
+				98BCE08E50C9FD89F711C063474628D7 /* Headers */,
+				F83A45DC0432095247B4540FD140FCCF /* Sources */,
+				77672384B9350630EBE1BC19C5D7927C /* Frameworks */,
+				78276D098271FF4143CFA4C878827465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91B9F696EE7574D6DA666CB24577279A /* PBXTargetDependency */,
+			);
+			name = "Pods-SoundWaveViewDemoUITests";
+			productName = "Pods-SoundWaveViewDemoUITests";
+			productReference = F1BE6EF4DA2218F85940D1CC9158C654 /* Pods_SoundWaveViewDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9A9348AFF3B9E0DA59573B0318BAA18 /* Pods-SoundWaveViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F551FDE096101FB316CE76A613375A /* Build configuration list for PBXNativeTarget "Pods-SoundWaveViewDemoTests" */;
+			buildPhases = (
+				876A0DC528E27826D4B552EBFD8FC864 /* Headers */,
+				10F371DEBDDD775AEA52B74648F6BDA1 /* Sources */,
+				C8F592F8F068E065815E0C28EF88912E /* Frameworks */,
+				D3AEE92DB85644E3B97C67677C2064B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0B39172C566F04E9699F79DAB4D17D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-SoundWaveViewDemoTests";
+			productName = "Pods-SoundWaveViewDemoTests";
+			productReference = 458E1A3C249EFCC236008965AFB19B38 /* Pods_SoundWaveViewDemoTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2E718EDAD78AF893FF37CE6177581738 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4C1A8B4BECDF4828C15A3BD8D8E48A27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF7468B4F5259B98018DD1ABAD2D2593 /* Masonry */,
-				CEE14A3B51B7276BA1DE354DB6DD7BD5 /* Pods-SoundWaveViewDemo */,
-				45ACBEFACCFBBAA855CC7E48C49BC7AC /* Pods-SoundWaveViewDemoTests */,
-				C25A5743CB774BDF005E6BB8742B38A5 /* Pods-SoundWaveViewDemoUITests */,
-				D3A6E63A24AE4F11F525BBF4AF99C625 /* PSTAlertController */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				70C4EA97435A5C1DFBEE3B326B66A11D /* Pods-SoundWaveViewDemo */,
+				F9A9348AFF3B9E0DA59573B0318BAA18 /* Pods-SoundWaveViewDemoTests */,
+				94EA4018ED986BDF8306CC9C3A892900 /* Pods-SoundWaveViewDemoUITests */,
+				5C2027A4F61A8FBE3744D8F38F93912C /* PSTAlertController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		452314065F799D68E002CD36B5578DF0 /* Resources */ = {
+		3721EF71ABBB8A38D3674423EB4F63A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4838490757EBA768A62179B9EE5B4005 /* Resources */ = {
+		78276D098271FF4143CFA4C878827465 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B33EE107F89BB01B7141AD210590A557 /* Resources */ = {
+		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAA9753AEC5C54F599FCE4798F7CD520 /* Resources */ = {
+		D3AEE92DB85644E3B97C67677C2064B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9942D956815D25C8C3C02AEECD34CF5 /* Resources */ = {
+		F8680E13A654ADE62AF9E65F65492225 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -621,90 +616,90 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		79D0EB5C92240FE3B1FF78CA02696BF1 /* Sources */ = {
+		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2B0DA35772F9F6531314F99C5E2BBDD /* MASCompositeConstraint.m in Sources */,
-				98655E9ABEE655AC980F3AB422088C38 /* MASConstraint.m in Sources */,
-				A0FDD2A6832EE4854731CDB45C4B5B9F /* MASConstraintMaker.m in Sources */,
-				65AD43F8BB7734430A4B11B134CFA4E0 /* MASLayoutConstraint.m in Sources */,
-				DCBA94B9BD9E5DD47BAF0C901C85ABC4 /* Masonry-dummy.m in Sources */,
-				FCE43D464D18874613D40BCAF034A404 /* MASViewAttribute.m in Sources */,
-				69E753A064765388C9FA44918F81E5A5 /* MASViewConstraint.m in Sources */,
-				F70096947E7F91201BC9FACCF008FE9C /* NSArray+MASAdditions.m in Sources */,
-				A9C9774D6BCA3A159F4DA9D9D0CD4196 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				1046B7E99E763A9478CEDEB621A21C5F /* View+MASAdditions.m in Sources */,
-				49CD91D6F77E8E088F0A5C59EE86B53C /* ViewController+MASAdditions.m in Sources */,
+				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
+				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
+				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
+				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
+				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
+				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
+				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
+				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
+				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
+				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91E6F6C1AC26350989148B87C3C677CB /* Sources */ = {
+		10F371DEBDDD775AEA52B74648F6BDA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77295ADDADD9BC691AD43E3424D4C439 /* Pods-SoundWaveViewDemoUITests-dummy.m in Sources */,
+				5EDDD042D9C679894BA387490717B891 /* Pods-SoundWaveViewDemoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		942795B54ED8CFF44F039BCBB8F2FD64 /* Sources */ = {
+		AB5F6AD66ACB2C584DC47DCC09D2763B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF15EB5D767712D379A88291026CCDDB /* Pods-SoundWaveViewDemoTests-dummy.m in Sources */,
+				43F1AF40C69889DF4FBDDD1EECF6930F /* PSTAlertController-dummy.m in Sources */,
+				4C082E673D4BA8495220FE1C7F8F7275 /* PSTAlertController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		976F082B8C4D5BBBF41F74590146F6CD /* Sources */ = {
+		C1B900993FE194F11FEA9D2CF4369E1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CE1CF4AD7AF7DB717EFDE5162395B0B /* PSTAlertController-dummy.m in Sources */,
-				888B4264C1BACEAFC53182D5E71ABD40 /* PSTAlertController.m in Sources */,
+				EE289977A621929CDD28CFAFC16AA274 /* Pods-SoundWaveViewDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADE90E029A238D065A0DFFE9CA3A5F5A /* Sources */ = {
+		F83A45DC0432095247B4540FD140FCCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02ED9501EF030F817393BBB94A494C8C /* Pods-SoundWaveViewDemo-dummy.m in Sources */,
+				DE1685CC2CF995D14124C5F5E2C4619E /* Pods-SoundWaveViewDemoUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		212A057F7E7B09EE3AB43565DEBA6EA0 /* PBXTargetDependency */ = {
+		77CDFE3CD3486CA75CA74959501B509E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PSTAlertController;
-			target = D3A6E63A24AE4F11F525BBF4AF99C625 /* PSTAlertController */;
-			targetProxy = 2D75D28C610E3DBCA3394B7A6C921217 /* PBXContainerItemProxy */;
+			target = 5C2027A4F61A8FBE3744D8F38F93912C /* PSTAlertController */;
+			targetProxy = 51DA23792DDF440DBD5756991EA53A50 /* PBXContainerItemProxy */;
 		};
-		9475152038A8E30DCFB543A66B149B1C /* PBXTargetDependency */ = {
+		8612C8FE81BCC463F1059B53C0AC2BD5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = FF7468B4F5259B98018DD1ABAD2D2593 /* Masonry */;
-			targetProxy = CE45A01B25409AF7615AD998233DD297 /* PBXContainerItemProxy */;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = A115843EE973B82DCC646DD351838022 /* PBXContainerItemProxy */;
 		};
-		CA182FEAEDBDF682919C79DDC8A0C9A7 /* PBXTargetDependency */ = {
+		91B9F696EE7574D6DA666CB24577279A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SoundWaveViewDemo";
-			target = CEE14A3B51B7276BA1DE354DB6DD7BD5 /* Pods-SoundWaveViewDemo */;
-			targetProxy = 5B5FDD7992C392389DE4150DAC5B32A3 /* PBXContainerItemProxy */;
+			target = 70C4EA97435A5C1DFBEE3B326B66A11D /* Pods-SoundWaveViewDemo */;
+			targetProxy = 3A2B75494C9AD02FB1C941768F870104 /* PBXContainerItemProxy */;
 		};
-		EF6BCC77E6354CD3FB70DE7AC1797A35 /* PBXTargetDependency */ = {
+		F0B39172C566F04E9699F79DAB4D17D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SoundWaveViewDemo";
-			target = CEE14A3B51B7276BA1DE354DB6DD7BD5 /* Pods-SoundWaveViewDemo */;
-			targetProxy = 498D16C69107D32F86E8907644BC055D /* PBXContainerItemProxy */;
+			target = 70C4EA97435A5C1DFBEE3B326B66A11D /* Pods-SoundWaveViewDemo */;
+			targetProxy = C7B20A066A0A3F0661A44E1517F59552 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		033C9697A4744CF7D0418A12F128FA49 /* Debug */ = {
+		18A76C75A24833680B2678A9B4146967 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CB1100ECD2EE25015510DCF9A710C3C /* Pods-SoundWaveViewDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 0305AE8A160D462E43768D721AE2B90F /* Pods-SoundWaveViewDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -717,84 +712,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SoundWaveViewDemoTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SoundWaveViewDemoTests/Pods-SoundWaveViewDemoTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0CC0F44881748C3FA589676761250019 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CE206AC6D51B32A44380F739DD8972D /* Pods-SoundWaveViewDemoTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SoundWaveViewDemoTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SoundWaveViewDemoTests/Pods-SoundWaveViewDemoTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		30F34D6335155227B4B2BD0B483B3D29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CD6437BCB15FF4502E3765CB318FCDA /* Pods-SoundWaveViewDemoUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SoundWaveViewDemoUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundWaveViewDemoUITests/Pods-SoundWaveViewDemoUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -812,86 +730,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		40F96DF3703B5BA0BA0CCAAB4457C32C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 068ED87B84FC56526B12CCDBFDB60FAA /* Pods-SoundWaveViewDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SoundWaveViewDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SoundWaveViewDemo/Pods-SoundWaveViewDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		58DA1C6C94008EACB2CCE2CCDCA51A6C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A0B581B54752FF0F8D3B72AAC5A4849 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -923,8 +767,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -952,14 +794,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		9E8005DBB43F9A474AE9CA10CCCC6AC0 /* Debug */ = {
+		39F44FFE6ACA6B803B9C01AC1EAEB31D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA0F5800DEE55F6D88BA34C51AFD1E07 /* Pods-SoundWaveViewDemoUITests.debug.xcconfig */;
+			baseConfigurationReference = 9ADE27373AE096E18AF5B582AB9D9505 /* Pods-SoundWaveViewDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -972,7 +814,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SoundWaveViewDemoUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundWaveViewDemoUITests/Pods-SoundWaveViewDemoUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -990,14 +832,53 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C1EEEC5B14F567F26D94840E6EDACC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F61DE1219808E623895444CEB61CAB5 /* Pods-SoundWaveViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundWaveViewDemo/Pods-SoundWaveViewDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoundWaveViewDemo/Pods-SoundWaveViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		CAA5CA245872ED6D16F2058EF1B4A73E /* Debug */ = {
+		82DEA2AEB6DCDE13A5F09D7FF2186A26 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B712FCC0FD1FFE12B4F6F4A0501879D /* PSTAlertController.xcconfig */;
+			baseConfigurationReference = B5E8320B6E19F00CA8807736F9A1B05E /* PSTAlertController.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1009,7 +890,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/PSTAlertController/PSTAlertController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PSTAlertController/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/PSTAlertController/PSTAlertController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1029,7 +910,76 @@
 			};
 			name = Debug;
 		};
-		D5F759C82752B2EB010DB3CD3D69707C /* Release */ = {
+		933C252AC1697174177192BE69B419F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1898B8DE7EEC726AED6CC8D392BE0CC9 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F100B4DB7CF05FF7703D826FAAF53B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FDA111EB085786E7F9C74EE08610A3 /* PSTAlertController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PSTAlertController/PSTAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSTAlertController/PSTAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PSTAlertController/PSTAlertController.modulemap";
+				PRODUCT_MODULE_NAME = PSTAlertController;
+				PRODUCT_NAME = PSTAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1061,8 +1011,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1086,14 +1034,53 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		DD53FB1BF6B9A967B4724365DC60F293 /* Release */ = {
+		BEBB1C4FD681D4E84862B1B6A4B7FEBF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A0B581B54752FF0F8D3B72AAC5A4849 /* Masonry.xcconfig */;
+			baseConfigurationReference = F54DD5AD6CD01379B89EB4A6534AFD7A /* Pods-SoundWaveViewDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundWaveViewDemoTests/Pods-SoundWaveViewDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoundWaveViewDemoTests/Pods-SoundWaveViewDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1F20CA5AF74551DBEC539096B44760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2530F4C43290B29871BD5B4323B0B18 /* Masonry.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1105,7 +1092,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1126,44 +1113,9 @@
 			};
 			name = Release;
 		};
-		E15CD38FCD8C2E684C90765CB41970E8 /* Release */ = {
+		EE7F51FFC939D5E7F5DB63A6016D69FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B712FCC0FD1FFE12B4F6F4A0501879D /* PSTAlertController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PSTAlertController/PSTAlertController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PSTAlertController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PSTAlertController/PSTAlertController.modulemap";
-				PRODUCT_MODULE_NAME = PSTAlertController;
-				PRODUCT_NAME = PSTAlertController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E3E9E2155A5E4358BE8D1E66B26E483B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002B1AF8007E712F2253D6FB9C0DA6BD /* Pods-SoundWaveViewDemo.debug.xcconfig */;
+			baseConfigurationReference = CE94846C14934F529DD00885C3D2F920 /* Pods-SoundWaveViewDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1176,7 +1128,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SoundWaveViewDemo/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundWaveViewDemoTests/Pods-SoundWaveViewDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoundWaveViewDemoTests/Pods-SoundWaveViewDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF75D2A9E0AAEDAAAB97E77FF97634E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2480CCB96B2697130E9751967C58A67 /* Pods-SoundWaveViewDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundWaveViewDemo/Pods-SoundWaveViewDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1194,69 +1184,70 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		297593F7C8543D45D8C664AF2017EB06 /* Build configuration list for PBXNativeTarget "PSTAlertController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */,
-				D5F759C82752B2EB010DB3CD3D69707C /* Release */,
+				82DEA2AEB6DCDE13A5F09D7FF2186A26 /* Debug */,
+				9F100B4DB7CF05FF7703D826FAAF53B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41AF74CF9DD584923C2A8A85D7C9A303 /* Build configuration list for PBXNativeTarget "PSTAlertController" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAA5CA245872ED6D16F2058EF1B4A73E /* Debug */,
-				E15CD38FCD8C2E684C90765CB41970E8 /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5252E278735628E188636B151C605960 /* Build configuration list for PBXNativeTarget "Pods-SoundWaveViewDemoTests" */ = {
+		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				033C9697A4744CF7D0418A12F128FA49 /* Debug */,
-				0CC0F44881748C3FA589676761250019 /* Release */,
+				933C252AC1697174177192BE69B419F9 /* Debug */,
+				D1F20CA5AF74551DBEC539096B44760B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62EE2DF8D1D189562994E1A8CE5CA47A /* Build configuration list for PBXNativeTarget "Pods-SoundWaveViewDemo" */ = {
+		C5C21EE5C95891D65B31D8F854C12447 /* Build configuration list for PBXNativeTarget "Pods-SoundWaveViewDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3E9E2155A5E4358BE8D1E66B26E483B /* Debug */,
-				40F96DF3703B5BA0BA0CCAAB4457C32C /* Release */,
+				18A76C75A24833680B2678A9B4146967 /* Debug */,
+				39F44FFE6ACA6B803B9C01AC1EAEB31D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84710AC86F03C1B2256418269E74EE40 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		C6F551FDE096101FB316CE76A613375A /* Build configuration list for PBXNativeTarget "Pods-SoundWaveViewDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58DA1C6C94008EACB2CCE2CCDCA51A6C /* Debug */,
-				DD53FB1BF6B9A967B4724365DC60F293 /* Release */,
+				EE7F51FFC939D5E7F5DB63A6016D69FE /* Debug */,
+				BEBB1C4FD681D4E84862B1B6A4B7FEBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA2B98A484A87BDA5810193CFCCBE643 /* Build configuration list for PBXNativeTarget "Pods-SoundWaveViewDemoUITests" */ = {
+		C76F589C80E6D25C18D879DF53C5110D /* Build configuration list for PBXNativeTarget "Pods-SoundWaveViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E8005DBB43F9A474AE9CA10CCCC6AC0 /* Debug */,
-				30F34D6335155227B4B2BD0B483B3D29 /* Release */,
+				7C1EEEC5B14F567F26D94840E6EDACC2 /* Debug */,
+				EF75D2A9E0AAEDAAAB97E77FF97634E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

@@ -107,7 +107,6 @@
 - (void)soundDataUpdate:(CGFloat)data index:(NSInteger)index {
     // 更新guage动画
     UIView *guage = self.guageArray[index];
-    NSLog(@"Guage width %f, height %f", guage.frame.size.width, guage.frame.size.height);
     [guage mas_updateConstraints:^(MASConstraintMaker *make) {
         CGFloat heightWave = self.zeroHeight * data / 100;
         make.height.mas_equalTo(self.zeroHeight + heightWave);

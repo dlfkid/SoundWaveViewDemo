@@ -12,6 +12,7 @@
 #import "SoundWaveView.h"
 #import <Masonry/Masonry.h>
 #import "UIColor+Ex.h"
+#import "CustomRecorder.h"
 
 @interface SoundWaveViewController()
 
@@ -51,6 +52,7 @@
     _soundWave = [[SoundWaveView alloc] initWithFrame:CGRectZero GuageColor:[UIColor tintColor] DataCapasity:12];
     
     _soundCollector.delegate = _soundWave;
+    _soundCollector.dataSource = [[CustomRecorder alloc] init];
     
     [self.view addSubview:self.soundWave];
 }
@@ -84,11 +86,11 @@
 #pragma mark - Actions
 
 - (void)startRecordButtonDidTappedAction {
-    [self.soundCollector startRecording];
+    [self.soundCollector collectWithFrequency:0.1];
 }
 
 - (void)stopButtonDidTappedAction {
-    [self.soundCollector stopRecording];
+    [self.soundCollector stopCollecting];
 }
 
 @end
