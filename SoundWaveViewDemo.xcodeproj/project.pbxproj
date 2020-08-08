@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		168E3E8E00599400C090EB68 /* Pods_SoundWaveViewDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37943894D252EE16E238C6D /* Pods_SoundWaveViewDemoTests.framework */; };
-		352725CD24B309560057F1F1 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 352725CC24B309560057F1F1 /* test.m */; };
 		3546421924DE434300663C61 /* CustomRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3546421824DE434300663C61 /* CustomRecorder.m */; };
 		35994F9121F808B700EF7112 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35994F9021F808B700EF7112 /* AppDelegate.m */; };
 		35994F9921F808B800EF7112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35994F9821F808B800EF7112 /* Assets.xcassets */; };
@@ -46,8 +45,6 @@
 		18802AAE47BFAAAC50996EA1 /* Pods-SoundWaveViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundWaveViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundWaveViewDemo/Pods-SoundWaveViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		268A57498BEDFCCFFACEA705 /* Pods-SoundWaveViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundWaveViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundWaveViewDemo/Pods-SoundWaveViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		28A3D52FF4AFCB63685053B8 /* Pods-SoundWaveViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundWaveViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundWaveViewDemoTests/Pods-SoundWaveViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		352725CB24B309560057F1F1 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		352725CC24B309560057F1F1 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		3546421724DE434300663C61 /* CustomRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomRecorder.h; sourceTree = "<group>"; };
 		3546421824DE434300663C61 /* CustomRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomRecorder.m; sourceTree = "<group>"; };
 		35994F8C21F808B700EF7112 /* SoundWaveViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundWaveViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,8 +136,6 @@
 				35EF0BD821F80F82009EF826 /* SoundWaveDataCollector.m */,
 				3546421724DE434300663C61 /* CustomRecorder.h */,
 				3546421824DE434300663C61 /* CustomRecorder.m */,
-				352725CB24B309560057F1F1 /* test.h */,
-				352725CC24B309560057F1F1 /* test.m */,
 				35EF0BDA21F80F82009EF826 /* SoundWaveView.h */,
 				35EF0BD921F80F82009EF826 /* SoundWaveView.m */,
 				35EF0BDE21F8107D009EF826 /* UIColor+Ex.h */,
@@ -413,7 +408,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				352725CD24B309560057F1F1 /* test.m in Sources */,
 				35EF0BDF21F8107D009EF826 /* UIColor+Ex.m in Sources */,
 				35EF0BDB21F80F82009EF826 /* SoundWaveDataCollector.m in Sources */,
 				35994F9F21F808B800EF7112 /* main.m in Sources */,
