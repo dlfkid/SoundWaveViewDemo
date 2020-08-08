@@ -32,7 +32,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SoundWaveDataCollector : NSObject
 
+/// 代理, 用于处理采集到的音量值
 @property (nonatomic, weak) UIView <SoundWaveDataCollectorDelegate> *delegate;
+
+/// 数据源, 通常是录音机等音频输入对象
 @property (nonatomic, strong) id <SoundWaveDataCollectorDataSource> dataSource;
 
 /// 开始采集音量数据
