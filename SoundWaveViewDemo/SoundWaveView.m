@@ -73,6 +73,7 @@
 }
 
 - (void)updateConstraints {
+    [super updateConstraints];
     [self layoutIfNeeded];
     for (int i = 0; i < self.dataCapasity; i ++) {
         UIView *guage = self.guageArray[i];
@@ -90,7 +91,6 @@
             make.centerY.equalTo(@0);
         }];
     }
-    [super updateConstraints];
 }
 
 #pragma mark - delegate
@@ -121,7 +121,7 @@
     
     NSNumber *lastData = self.soundVolumeDataArray[index];
     self.soundVolumeDataArray[index] = [NSNumber numberWithFloat:data];
-    if (index != 0) {
+    if (index > 0) {
         [self soundDataUpdate:lastData.floatValue index:index - 1];
     }
 }

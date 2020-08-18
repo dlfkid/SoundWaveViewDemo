@@ -57,22 +57,23 @@ static NSString * const kTimerQueueName = @"SoundWaveView.Timer.Queue";
         [self updateSoundVolumeArray];
     });
     dispatch_resume(self.timer);
-    [self.dataSource startRecording];
+    [self.dataSource startCollecting];
 }
 
 - (void)updateSoundVolumeArray {
-    if (!self.dataSource.isRecording) {
-        return;
+    Float64 volumeValue = 0;
+    if (self.dataSource.isCollecting) {
+        volumeValue = self.dataSource.volume;
     }
     if ([self.delegate respondsToSelector:@selector(updateGuageValue:)]) {
         dispatch_sync(dispatch_get_main_queue(), ^{
-            [self.delegate updateGuageValue:self.dataSource.volume];
+            [self.delegate updateGuageValue:volumeValue];
         });
     }
 }
 
 - (void)stopCollecting {
-    [self.dataSource stopRecording];
+    [self.dataSource stopCollecting];
     dispatch_source_cancel(self.timer);
 }
 

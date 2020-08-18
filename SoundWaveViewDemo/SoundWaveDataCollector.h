@@ -20,13 +20,13 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol SoundWaveDataCollectorDataSource
 
 @required
-@property (nonatomic, assign, readonly, getter =  isRecording) BOOL recording;
+@property (nonatomic, assign, readonly, getter =  isCollecting) BOOL collection;
 
 @property (nonatomic, assign, readonly) Float64 volume;
 
-- (void)startRecording;
+- (void)startCollecting;
 
-- (void)stopRecording;
+- (void)stopCollecting;
 
 @end
 

@@ -66,11 +66,15 @@
     return [self averagePowerForChannel:0];
 }
 
-- (void)startRecording {
+- (BOOL)isCollecting {
+    return self.isRecording;
+}
+
+- (void)startCollecting {
     [self record];
 }
 
-- (void)stopRecording {
+- (void)stopCollecting {
     [self stop];
 }
 
