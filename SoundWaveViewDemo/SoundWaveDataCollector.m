@@ -12,6 +12,7 @@
 #import <PSTAlertController/PSTAlertController.h>
 
 // Helpers
+#import "WeakProxy.h"
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 #import <AudioToolbox/AudioToolbox.h>
@@ -45,16 +46,18 @@ static NSString * const kTimerQueueName = @"SoundWaveView.Timer.Queue";
 }
 
 -(void)dealloc {
-    NSLog(@"Sound Data recorder dealloced : %@", self);
+    dispatch_source_cancel(self.timer);
 }
 
 #pragma mark - Actions
 
 -  (void)collectWithFrequency:(NSTimeInterval)frequency {
+    __weak typeof(self) weakSelf = self;
     _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, self.timerQueue);
     dispatch_source_set_timer(self.timer, DISPATCH_TIME_NOW, (uint64_t)frequency * NSEC_PER_SEC, 0);
     dispatch_source_set_event_handler(self.timer, ^{
-        [self updateSoundVolumeArray];
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+        [strongSelf updateSoundVolumeArray];
     });
     dispatch_resume(self.timer);
     [self.dataSource startCollecting];
@@ -74,7 +77,6 @@ static NSString * const kTimerQueueName = @"SoundWaveView.Timer.Queue";
 
 - (void)stopCollecting {
     [self.dataSource stopCollecting];
-    dispatch_source_cancel(self.timer);
 }
 
 @end
